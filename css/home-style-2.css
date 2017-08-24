@@ -513,7 +513,7 @@ section{
 }
 
 .tab-content p:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 
@@ -677,6 +677,9 @@ section#counter_rv2:before {
 }
 .team-social i{
 	background: transparent;
+}
+.team .team-wrap {
+    margin-bottom: 45px;
 }
 /***********************************
 	007 - events section

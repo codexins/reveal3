@@ -12,8 +12,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<!-- Google Fonts
 	============================================ -->	
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lobster%7CMontserrat:400,700%7CRoboto:400,700" rel="stylesheet"> -->
-	<link href="https://fonts.googleapis.com/css?family=Lato%7CPoppins:400,500%7CRoboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRaleway:400,600,700" rel="stylesheet">
 	<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 	<![endif]-->
@@ -44,91 +43,41 @@
 	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
-	<header class="header  rv2 fill-screen">
+
+	<header class="header fill-screen rv3 mrg-b-50">
 		<nav class="navbar" data-spy="affix" data-offset-top="150">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#reveal-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="http://themeitems.com/tf/reveal-preview/"><img src="rev-2-img/logo.png" alt=""></a>
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="reveal-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right main-menu">
-								<li class=""><a href=".header">home</a></li>
-								<li><a href="#story">Abouth</a></li>
-								<li><a href="#services">Services</a></li>
-								<li><a href="#events_rv2">Events </a></li>
-								<li><a href="#portfolio_rv2">Portfolio</a></li>
-								<li><a href="#letest_post">Blog</a></li>
-								<li><a href="#location">Contact</a></li>
-								<li><div class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></div></li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- col-sm-12 -->
-				</div><!-- row-->
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#reveal-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="http://themeitems.com/tf/reveal-preview/"><img src="img-home-3/logo/logo-3.png" alt=""></a>
+				</div>
 			</div><!-- /.container-fluid -->
 		</nav> <!-- end of nav -->
-		<!-- slider section  -->
-		<div class="slider owl-carousel arrow-middle">
-			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
-				<!-- slider caption  -->
-				<div class="slider-text">
-					<div class="container ">
-						<div class="row ">
-							<div class="col-sm-6">
-								<h3>WELCOME TO REVEAL</h3>
-								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-rv btn-white ">Know more</a>
-							</div>	
-						</div>	
-					</div>	
-				</div> <!-- end caption -->
-			</div>
-			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
-				<!-- slider caption  -->
-				<div class="slider-text">
-					<div class="container ">
-						<div class="row ">
-							<div class="col-sm-6">
-								<h3>WELCOME TO REVEAL</h3>
-								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-rv btn-white  ">Know more</a>
-							</div>	
-						</div>	
-					</div>	
-				</div> <!-- end caption -->
-			</div>
-			<div class="slider-item" style="background:url(rev-2-img/Showcase.jpg);">
-				<!-- slider caption  -->
-				<div class="slider-text">
-					<div class="container ">
-						<div class="row ">
-							<div class="col-sm-6">
-								<h3>WELCOME TO REVEAL</h3>
-								<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
-								<a href="#" class="btn-rv btn-white ">Know more</a>
-							</div>	
-						</div>	
-					</div>	
-				</div> <!-- end caption -->
-			</div>
-		</div> <!-- end slider   -->
+
+		<div class="slider-text text-center rv3">
+			<h1>WELCOME TO REVEAL</h1>
+			<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
+			<a href="#" class="btn-btn-primary btn-rv rv3-bg-clr rv3-hover-clr">know more</a>
+		</div>
+
+		
 	</header>  <!-- end of header -->
+	
+	<div class="clearfix"></div>
+
 	<!-- featured section  000000 -->
-	<div id="featured" class="featured mrg-0">
+	<div id="featured" class="featured mrg-50">
 		<div class="container">
 			<div class="row">
 				<!-- single fetured			 -->
 				<div class="col-sm-4 ">
-					<div class="featured-item text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.4s">
+					<div class="rv3 featured-item text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.4s">
 						<div class="rv2-icon-1 featured-icon"><i class="flaticon-light-bulb"></i></div>
 						<h4 class="title-3">Creative team</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -136,7 +85,7 @@
 				</div>
 				<!-- single fetured			 -->
 				<div class="col-sm-4">
-					<div class="featured-item item-hover text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.6s" >
+					<div class="rv3 featured-item item-hover text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.6s" >
 						<div class="rv2-icon-1 featured-icon"><i class="flaticon-devices"></i></div>
 						<h4 class="title-3">web developer</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -144,7 +93,7 @@
 				</div>
 				<!-- single fetured			 -->
 				<div class="col-sm-4">
-					<div class="featured-item text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.8s">
+					<div class="rv3 featured-item text-center wow fadeInUp " data-wow-duration="1s" data-wow-delay="0.8s">
 						<div class="rv2-icon-1 featured-icon"><i class="flaticon-time"></i></div>
 						<h4 class="title-3">24/7 support</h4>
 						<p>Lorem ipsum dolor sit amet, iuvaret persecuti adversarium ex quo, per et pertinax voluptatibus, saperet.</p>
@@ -153,70 +102,58 @@
 			</div>  <!-- end of row -->
 		</div> <!-- end of container -->
 	</div> <!-- end of section #featured -->
-
-
+	<div class="clearfix"></div>
 	<!-- story section	start  -->
-	<section id="story" class="story mrg-50   ">
+	<section id="story" class="story rv3 mrg-50   ">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title">
+					<div class=" rv3 rv2-title">
 						<h2 class="primary-title rv2">OUR STORY </h2>
 						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="col-sm-4  col-sm-push-8">
-					<div class="story-menu">
+				<div class="col-sm-12  ">
+					<div class="story-menu rv3">
 						<!-- Nav tabs -->
 						<ul class="" role="tablist">
 
 							<li role="presentation" class="active">
-								<a href="#html_tutorial" aria-controls="html_tutorial" role="tab" data-toggle="tab">HTML Tutorial</a>
+								<a href="#History" aria-controls="History" role="tab" data-toggle="tab">History</a>
 							</li>
 							<li role="presentation">
-								<a href="#js_certificate" aria-controls="js_certificate" role="tab" data-toggle="tab">JavaScript Certificate</a>
+								<a href="#MIssion" aria-controls="MIssion" role="tab" data-toggle="tab">MIssion</a>
 							</li>
 							<li role="presentation">
-								<a href="#js_tutorial" aria-controls="js_tutorial" role="tab" data-toggle="tab">JavaScript Tutorial</a>
+								<a href="#Vision" aria-controls="Vision" role="tab" data-toggle="tab">Vision</a>
 							</li>
-							<li role="presentation">
-								<a href="#bstp_certificate" aria-controls="bstp_certificate" role="tab" data-toggle="tab">Bootstrap Certificate</a></li>
-
-							<li role="presentation"><a href="#bstp_tutorial" aria-controls="bstp_tutorial" role="tab" data-toggle="tab">Bootstrap Tutorial </a></li>
 						</ul>
 					</div>
 				</div> <!-- end of col-sm-4 -->
-				<div class="col-sm-8  col-sm-pull-4">
+				<div class="col-sm-12  ">
 					<div class="story-wrap">
 						<div class="story-content">
 							<!-- Tab panes -->
 							<div class="tab-content">
-								<div role="tabpanel" class="tab-pane active" id="html_tutorial">
+								<div role="tabpanel" class="tab-pane active" id="History">
+									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
+									Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
+									</p>
+									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
+									Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
+									</p>
+									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
+									Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="MIssion">
 									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
 									</p>
-									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									</p>
 								</div>
-								<div role="tabpanel" class="tab-pane" id="js_certificate">
-									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
-									</p>
-								</div>
-								<div role="tabpanel" class="tab-pane" id="js_tutorial">
+								<div role="tabpanel" class="tab-pane" id="Vision">
 									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									</p>
-								</div>
-								<div role="tabpanel" class="tab-pane" id="bstp_certificate">
-									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									</p>
-									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									</p>
-								</div>
-								<div role="tabpanel" class="tab-pane" id="bstp_tutorial">
-									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
-									</p><p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
 									</p>
 								</div>
 							</div>
@@ -235,30 +172,30 @@
 			<div class="row">
 
 				<div class="col-sm-3 ">
-					<div class="counter-item" >
-						<div class="rv2-icon-1"><i class="flaticon-networking"></i></div>
+					<div class="counter-item rv3" >
 						<span class="counter">1987</span>
+						<h2 class=" rv3 rv2-title title-top-style"></h2>
 						<h3 class="title-3">Web Apps Projects</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
-					<div class="counter-item" >
-						<div class="rv2-icon-1"><i class="flaticon-cogwheel "></i></div>
+					<div class="counter-item rv3" >
 						<span class="counter">5490</span><span>+</span>
+						<h2 class=" rv3 rv2-title title-top-style"></h2>
 						<h3 class="title-3">Happy Clients</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
-					<div class="counter-item" >
-						<div class="rv2-icon-1"><i class="flaticon-pencil"></i></div>
+					<div class="counter-item rv3" >
 						<span class="counter">100</span><span>%</span>
+						<h2 class=" rv3 rv2-title title-top-style"></h2>
 						<h3 class="title-3">Award Winner</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
-					<div class="counter-item" >
-						<div class="rv2-icon-1"><i class=" flaticon-team"></i></div>
+					<div class="counter-item rv3" >
 						<span class="counter">1000</span><span>+</span>
+						<h2 class=" rv3 rv2-title title-top-style"></h2>
 						<h3 class="title-3">Cup of Coffee</h3>
 					</div>
 				</div>
@@ -268,19 +205,19 @@
 	<div class="clearfix"></div>
 
 	<!-- services secrtion  -->
-	<section id="services" class="mrg-50">
+	<section id="services" class="mrg-t-50 services rv3">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title center-block">
+					<div class=" rv3 rv2-title center-block">
 						<h2 class="primary-title rv2">BEST Services </h2>
 						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
-				<div class="col-sm-12">
-					<div class="service-item pad-50">
+				<div class="col-sm-4">
+					<div class="service-item rv3 pad-50">
 						<div class="service-icon">
 							<img src="rev-2-img/11.jpg" alt="">
 						</div>
@@ -289,7 +226,9 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-					<div class="service-item white-bg pad-50">
+				</div>
+				<div class="col-sm-4">
+					<div class="service-item rv3  pad-50">
 						<div class="service-icon">
 							<img src="rev-2-img/12.png" alt="">
 						</div>
@@ -298,7 +237,9 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-					<div class="service-item pad-50">
+				</div>
+				<div class="col-sm-4">
+					<div class="service-item rv3 pad-50">
 						<div class="service-icon">
 							<img src="rev-2-img/13.png" alt="">
 						</div>
@@ -307,7 +248,9 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-					<div class="service-item white-bg pad-50">
+				</div>
+				<div class="col-sm-4">
+					<div class="service-item rv3  pad-50">
 						<div class="service-icon">
 							<img src="rev-2-img/14.png" alt="">
 						</div>
@@ -316,7 +259,9 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-					<div class="service-item  pad-50">
+				</div>
+				<div class="col-sm-4">
+					<div class="service-item rv3  pad-50">
 						<div class="service-icon">
 							<img src="rev-2-img/15.png" alt="">
 						</div>
@@ -325,7 +270,9 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
 						</div>
 					</div>
-					<div class="service-item white-bg pad-50">
+				</div>
+				<div class="col-sm-4">
+					<div class="service-item rv3  pad-50">
 						<div class="service-icon">
 							<img src="rev-2-img/16.png" alt="">
 						</div>
@@ -335,6 +282,7 @@
 						</div>
 					</div>
 				</div>
+
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of service -->
@@ -346,7 +294,7 @@
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title after-white center-block">
+					<div class=" rv3 rv2-title after-white center-block">
 						<h2 class="primary-title rv2">EXPERT  TEAM</h2>
 						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
@@ -354,82 +302,200 @@
 			</div>
 			<div class="row">	
 				<div class="col-sm-3 team-wrap">
-					
 					<div class="single-team">
-						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-							</div>
+						<div class="member-image">
+							<a href="#">
+								<img src="img-home-3/team/team_1.png" alt="Team" class="img-responsive" />
+							</a>
 						</div>
 					</div>
-					<div class="team-description text-center">
+					<div class="team-description rv3 text-center">
 						<p>Alfred Aaron</p>
 						<p>Ruby Expert</p>
+						<ul class="socile-link">
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						</ul>
 					</div>
-					
 				</div>
-
 				<div class="col-sm-3 team-wrap">
 					<div class="single-team">
-						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-							</div>
+						<div class="member-image">
+							<a href="#">
+								<img src="img-home-3/team/team_2.png" alt="Team" class="img-responsive" />
+							</a>
 						</div>
 					</div>
-					<div class="team-description text-center">
-						<p>Leanne Emma</p>
-						<p>Python Specialist</p>
+					<div class="team-description rv3 text-center">
+						<p>Alfred Aaron</p>
+						<p>Ruby Expert</p>
+						<ul class="socile-link">
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						</ul>
 					</div>
 				</div>
-
 				<div class="col-sm-3 team-wrap">
 					<div class="single-team">
-						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-							</div>
+						<div class="member-image">
+							<a href="#">
+								<img src="img-home-3/team/team_3.png" alt="Team" class="img-responsive" />
+							</a>
 						</div>
 					</div>
-					<div class="team-description text-center">
-						<p>Michelle Kylee</p>
-						<p>PHP Developer</p>
+					<div class="team-description rv3 text-center">
+						<p>Alfred Aaron</p>
+						<p>Ruby Expert</p>
+						<ul class="socile-link">
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						</ul>
 					</div>
 				</div>
-
 				<div class="col-sm-3 team-wrap">
 					<div class="single-team">
-						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
-							<div class="team-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-instagram"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-							</div>
+						<div class="member-image">
+							<a href="#">
+								<img src="img-home-3/team/team_4.png" alt="Team" class="img-responsive" />
+							</a>
 						</div>
 					</div>
-					<div class="team-description text-center">
-						<p>Ceasar Morgan</p>
-						<p>Java Expert</p>
+					<div class="team-description rv3 text-center">
+						<p>Alfred Aaron</p>
+						<p>Ruby Expert</p>
+						<ul class="socile-link">
+							<li><a href=""><i class="fa fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						</ul>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section> <!-- end of team section -->
+	<div class="clearfix"></div>
+	<!-- portfolio section  -->
+	<section id="portfolio_rv3" class="portfolios rv3 mrg-t-50">
+		<div class="container">
+			<div class="row">
+				<div class="portfolio_rv2-button">
+					<!-- section title  -->
+					<div class="row-middle col-sm-3">
+						<div class=" rv3 rv2-title mrg-0">
+							<h2 class="primary-title mrg-0 rv2">OUR WORK</h2>
+						</div>
+					</div>  <!-- end of col-sm-12 -->
+					<div class="row-middle col-sm-8">
+						<div class="portfolio-filter rv2 rv3 pull-right">
+							<ul class="list-inline">
+								<li class="active" data-filter="*">All</li>
+								<li data-filter=".python">Python</li>
+								<li data-filter=".javascript">Javascript</li>
+								<li data-filter=".laravel">Laravel</li>
+								<li data-filter=".php">PHP</li>
+								<li class="view-all"> view all </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="portfolio-wrapper">
+					<div class="col-md-3 pad-0 python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 pad-0 javascript php">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port22.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port22.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+			
+					<div class="col-md-3 pad-0 laravel python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port3.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port3.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				
+					<div class="col-md-3 pad-0 php">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port4.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port4.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 pad-0 javascript python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port5.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port5.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
+								</div>
+							</a>
+						</div>			
+					</div>
+				</div> <!-- end of portfolio-wrapper -->
+			</div>
+		</div>
+	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+	<!-- cta button  -->
+	<section class="cta-button-rv2 rv3-overly rv3 mrg-b-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="rv3-cta-content">
+						<h4 class="cta-title">It Does More. It Costs Less. It’s that Simple.</h4>
+						<p>Suscipit persecuti in pri, cu diam velit dicam pri. Ad solum audiam cum, has ut scripta definitiones. Sumo suas conve</p>
+						<a href="#" class="btn-rv btn-white ">Know more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--  cta section end  -->
 	<div class="clearfix"></div>
 
 	<!-- event section  -->
@@ -439,38 +505,18 @@
 				<!-- section title  -->
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title center-block">
+					<div class=" rv3 rv2-title center-block">
 						<h2 class="primary-title rv2">Events</h2>
 						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="cleasrfix"></div>
 				<div class="col-sm-6">
-					<div class="single-event mrg-b-50">
+					<div class="single-event rv3 mrg-b-50">
 						<div class="event-img"><img src="rev-2-img/Event-left.jpg" alt=""></div>
-						<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
+						<div class="single-event-info">
+							<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 
-						<ul>
-							<li><i class="fa fa-clock-o" aria-hidden="true"></i>
-							 	 8:00 AM - 5:00 PM  
-							 </li>
-							<li>
-								<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
-							 </li>
-							<li>
-								<i class="fa fa-calendar" aria-hidden="true"></i>
-							 	  08/07/17
-							 </li>
-						</ul>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="single-event mrg-b-50">
-						<div class="event-img"><img src="rev-2-img/Event-right.jpg" alt=""></div>
-						<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
-						<p>
 							<ul>
 								<li><i class="fa fa-clock-o" aria-hidden="true"></i>
 								 	 8:00 AM - 5:00 PM  
@@ -483,8 +529,36 @@
 								 	  08/07/17
 								 </li>
 							</ul>
-						</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+							<a href="#" class="btn-rv btn-white ">Know more</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="single-event rv3 mrg-b-50">
+						<div class="event-img"><img src="rev-2-img/Event-right.jpg" alt=""></div>
+
+
+						<div class="single-event-info">
+							<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
+							<p>
+								<ul>
+									<li><i class="fa fa-clock-o" aria-hidden="true"></i>
+									 	 8:00 AM - 5:00 PM  
+									 </li>
+									<li>
+										<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
+									 </li>
+									<li>
+										<i class="fa fa-calendar" aria-hidden="true"></i>
+									 	  08/07/17
+									 </li>
+								</ul>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+							<a href="#" class="btn-rv btn-white ">Know more</a>	
+						</div>
 					</div>
 				</div>
 			</div> <!-- end of row -->
@@ -498,217 +572,66 @@
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title after-white center-block">
+					<div class=" rv3 rv2-title after-white center-block">
 						<h2 class="primary-title rv2">Client Feedback </h2>
 						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
-				<div class="client-comment-curosel owl-carousel owl-theme">
-					<div class="col-sm-6">
-						<div class="client ">
-							<div class="client-info">
+				<div class="client-comment-curosel-rv3 owl-carousel owl-theme">
+					
+					<div class="col-sm-8 center-block">
+						<div class="client rv3 ">
+							<div class="client-comment">
+								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
+								An quot magna libris his. Ut eius iudico noster mea. Ut nec solet munere lobortis,
+								diam utamur quo ad. His debet maiestatis cotidieque eu,</p>
+							</div>
+							<div class="client-info center-block">
 								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
 								</div>
 								<div class="client-name">
-									<i class="flaticon-right-quotes-symbol"></i>
 									<h3 class="title-3">Mark Twain</h3>
+									<p>COMPANY CO. IN</p>
 								</div>
-							</div>
-							<div class="client-comment">
-								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
-							</div>
-						</div>
-					</div>	
-					<div class="col-sm-6">
-						<div class="client ">
-							<div class="client-info">
-								<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
-								</div>
-								<div class="client-name">
-									<i class="flaticon-right-quotes-symbol"></i>
-									<h3 class="title-3">Mark Twain</h3>
-								</div>
-							</div>
-							<div class="client-comment">
-								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<div class="client ">
-							<div class="client-info">
+										<div class="col-sm-8 center-block">
+						<div class="client rv3 ">
+							<div class="client-comment">
+								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
+								An quot magna libris his. Ut eius iudico noster mea. Ut nec solet munere lobortis,
+								diam utamur quo ad. His debet maiestatis cotidieque eu,</p>
+							</div>
+							<div class="client-info center-block">
 								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
 								</div>
 								<div class="client-name">
-									<i class="flaticon-right-quotes-symbol"></i>
 									<h3 class="title-3">Mark Twain</h3>
+									<p>COMPANY CO. IN</p>
 								</div>
-							</div>
-							<div class="client-comment">
-								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
-							</div>
-						</div>
-					</div>	
-					<div class="col-sm-6">
-						<div class="client ">
-							<div class="client-info">
-								<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
-								</div>
-								<div class="client-name">
-									<i class="flaticon-right-quotes-symbol"></i>
-									<h3 class="title-3">Mark Twain</h3>
-								</div>
-							</div>
-							<div class="client-comment">
-								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<div class="client ">
-							<div class="client-info">
+										<div class="col-sm-8 center-block">
+						<div class="client rv3 ">
+							<div class="client-comment">
+								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
+								An quot magna libris his. Ut eius iudico noster mea. Ut nec solet munere lobortis,
+								diam utamur quo ad. His debet maiestatis cotidieque eu,</p>
+							</div>
+							<div class="client-info center-block">
 								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
 								</div>
 								<div class="client-name">
-									<i class="flaticon-right-quotes-symbol"></i>
 									<h3 class="title-3">Mark Twain</h3>
+									<p>COMPANY CO. IN</p>
 								</div>
-							</div>
-							<div class="client-comment">
-								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
-							</div>
-						</div>
-					</div>	
-					<div class="col-sm-6">
-						<div class="client ">
-							<div class="client-info">
-								<div class="client-img"><img src="rev-2-img/Client-right.png" alt="">
-								</div>
-								<div class="client-name">
-									<i class="flaticon-right-quotes-symbol"></i>
-									<h3 class="title-3">Mark Twain</h3>
-								</div>
-							</div>
-							<div class="client-comment">
-								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div> <!-- end of row -->
-		</div> <!-- end of container -->
-	</section> <!-- end of section -->
-	<div class="clearfix"></div>
-	<!-- cta button  -->
-	<section class="cta-button-rv2 mrg-b-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="cta-content">
-						<h4 class="cta-title">It Does More. It Costs Less. It’s that Simple.</h4>
-						<a href="#" class="btn-rv btn-white ">Know more</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section><!--  cta section end  -->
-	<div class="clearfix"></div>
-
-	<!-- portfolio section  -->
-	<section id="portfolio_rv2" class="portfolios rv2 mrg-50">
-		<div class="container">
-			
-			<div class="row">
-				<div class="portfolio_rv2-button">
-					<!-- section title  -->
-					<div class="row-middle col-sm-3">
-						<div class="rv2-title mrg-0">
-							<h2 class="primary-title mrg-0 rv2">OUR WORK</h2>
-						</div>
-					</div>  <!-- end of col-sm-12 -->
-					<div class="row-middle col-sm-8">
-						<div class="portfolio-filter rv2 pull-right">
-							<ul class="list-inline">
-								<li class="active" data-filter="*">All</li>
-								<li data-filter=".python">Python</li>
-								<li data-filter=".javascript">Javascript</li>
-								<li data-filter=".laravel">Laravel</li>
-								<li data-filter=".php">PHP</li>
-								<li class="view-all"> view all </li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div> <!-- end of row -->
-			<div class="row">
-				<div class="portfolio-wrapper">
-					<div class="col-sm-4 col-xs-12  php laravel">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/Work-1.jpg" alt="">
-							<a href="rev-2-img/Work-1.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class=" col-sm-4 col-xs-12  python">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/Work-2.jpg" alt="">
-							<a href="rev-2-img/Work-2.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class=" col-sm-4 col-xs-12  laravel javascript">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/Work-3.jpg" alt="">
-							<a href="rev-2-img/Work-3.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class=" col-sm-4 col-xs-12  laravel ruby">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/Work-4.jpg" alt="">
-							<a href="rev-2-img/Work-4.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class=" col-sm-4 col-xs-12  python php">
-						<div class="portfolio-item portfolio-rv2">
-							<img src="rev-2-img/Work-5.jpg" alt="">
-							<a href="rev-2-img/Work-5.jpg" class="img-pop-up">
-								<div class="image-mask">
-									<div class="image-content">
-										<i class="flaticon-plus-sign-to-add"></i>
-										<p>Lorem Ipsum Demo</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div> <!-- end of portfolio-wrapper -->
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
@@ -799,7 +722,7 @@
 			<div class="row">
 				<!-- section title  -->
 				<div class="col-sm-12">
-					<div class="rv2-title center-block">
+					<div class=" rv3 rv2-title center-block">
 						<h2 class="primary-title rv2">LATEST POST</h2>
 						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
 					</div>

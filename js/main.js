@@ -253,26 +253,28 @@ $(function() {
 		}
 
 	});
+ 
 
-	$(".client-comment-curosel").owlCarousel({
+	$(".client-comment-curosel-rv3").owlCarousel({
 		loop:true,
-		nav:false,
+		nav:true,
+		dots:false,
+		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		autoplay:true,
 		responsive:{
 		    0:{
 		        items:1
 		    },
 		    600:{
-		        items:2
+		        items:1
 		    },
 		    1000:{
-		        items:2
+		        items:1
 		    }
 		}
 
 	});
-	    
-
+		    
 
 function form_validation(id_or_class){
  	$(id_or_class).validate({

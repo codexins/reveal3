@@ -1,0 +1,563 @@
+/*
+	Template Name: Reveal
+	Author: ThemeItems
+	Description: One Page responsive Portfolio Template
+	Version: 1.0
+
+*/
+
+/******************************
+
+INDEX:
+
+==>>> HOMEPAGE <<<==
+
+	000 - General Typography section
+	001 - header section
+	002 - featured section
+	003 - story section
+	004 - counter v2 section
+	005 - services  section
+	006 - team section
+	007 - events section
+	008 - feedback section
+	009 - cta-button-rv2 section
+	010 - portfolio section
+	011 - clients section
+	012 - location section
+	013 - letest-post section
+	014 - newsletter section
+	015 - footer section
+
+==>>> Blog Page <<<==
+	016 - blog header
+
+==>>> portfolio page  <<<==
+	17. portfolio page 
+
+==>>>single blog page  <<<==
+	18. single blog page 
+	19. sidebar  
+	
+
+
+******************************/
+
+/*
+
+
+
+
+
+	Primary Font:	
+		font-family: 'Open Sans', sans-serif;
+	Secondary Font: 
+		font-family: 'Raleway', sans-serif;
+
+	hover color :#82c400 ;
+	text-color: #fff ;
+	title color #252525  ;
+	bg img overly color #05131c 85%
+	image hover overly : #23dac9;
+
+
+	Flaticon icon font: Flaticon
+	Creation date: 11/08/2017 09:26
+
+
+*/
+
+
+/***********************************
+	000 - General Typography
+
+***********************************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.65em;
+	color:#707070;
+	position: relative;
+	background: #fff;
+}
+a:hover{
+	color: #82c400 ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	margin-top:0;
+
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 15px;
+}
+ul{
+	list-style: none;
+	padding-left: 0 ;
+}
+.rv3-color,	
+.rv3 .rv3-hover-clr:hover,
+.rv3-hover-clr:hover{
+	color: #82c400 ;
+}
+.rv3-hover-clr-2:hover{}
+.rv3-bg-clr,	
+.rv3-hover-bgclr:hover{
+	background: #82c400 ;
+}
+.rv3-hover-bgclr-2:hover{}
+.rv3 .title-3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700 ;
+}
+.rv3 h2.primary-title.rv2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700 ;
+}
+.pad-0{
+	padding: 0 ;
+}
+
+/*==========================
+	001 - header section
+==========================*/
+.rv3 .navbar.affix {
+    background-color: #23dac9;
+}
+.header.rv3 {
+    background: url(../img-home-3/h3-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rv3.slider-text {
+    width: 50%;
+}
+.rv3.slider-text p {
+    font-size: 18px;
+    color: #efefef;
+    margin-bottom: 45px;
+    line-height: 25px;
+
+}
+.rv3.slider-text h1{
+	font-size: 50px;
+	margin-bottom: 30px;
+	font-weight: 700 ;
+}
+.rv3 .slider-btn{
+	border: 0px solid ;
+}
+.rv3 .btn-rv {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+}
+.rv3 a.btn-btn-primary.btn-rv:hover {
+	background: #fff ;
+}
+/*****************************
+	002 - featured section
+******************************/
+.rv3.featured-item {
+    position: unset;
+    box-shadow: none;
+    border: 1px solid #ebebeb;
+}
+.rv3.featured-item.item-hover,
+.rv3.featured-item:hover{
+	box-shadow: -5px 15px 60px -22px rgba(0,0,0,0.5);
+}
+.rv3.featured-item:hover i:before {
+    color:  #82c400 ;
+}
+.rv3 .rv2-title:before{
+	background:#82c400;
+}
+/*****************************
+	003 - story section
+******************************/
+.story-menu.rv3{}
+.story-menu.rv3 ul{
+	margin:0;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.story-menu.rv3 ul li {
+    float: left;
+    border: 1px solid #e1e1e1;
+}
+.story-menu.rv3 ul li + li{
+    border-left: 0px solid #e1e1e1;
+}
+.story-menu.rv3 ul li a{
+	text-transform: uppercase;
+	display: block;
+	padding: 10px 30px;
+}
+.story-menu.rv3 ul li:before{
+	content: none;
+}
+.story.rv3 {
+    margin-top: 50px;
+}
+.story-menu.rv3 ul li.active a,
+.story-menu.rv3 ul li a:hover{
+	background:  #82c400;
+	color: #fff ;
+}
+
+/*****************************
+	004 - counter v2 section
+******************************/
+.counter-item .rv2-title {
+    padding-top: 5px;
+    margin-bottom: 0;
+    margin-top: 32px;
+}
+.rv3.counter-item  span, .rv3.counter-item  .counter{
+	color:#fff ;
+}
+.rv3.counter-item .rv2-title:after{
+	background: #fff ;
+}
+.rv3.counter-item .title-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*****************************
+	005 - services  section
+******************************/
+.rv3.service-item {
+    width: 100%;
+    text-align: center;
+    border: 1px solid transparent ;
+    border-left:  1px solid #e1e1e1;
+    border-right:  1px solid #e1e1e1;
+    margin-bottom: 30px;
+    position: relative;
+    transition: 0.3s  ;
+}
+.services.rv3{
+	margin-bottom: 20px;
+}
+.rv3.service-item{
+	background: linear-gradient( to left,#e1e1e1 0,#e1e1e1 30%,#fff 30%,#fff 70%,#e1e1e1 70%,#e1e1e1)top no-repeat,
+    linear-gradient( to right, #e1e1e1 0,#e1e1e1 33.3%,#fff 33.3%,#fff 66.6%,#e1e1e1 66.6%,#e1e1e1) bottom no-repeat;
+ 	background-size: 100% 1px, 100% 1px;
+}
+.rv3.service-item:hover{
+	border:  1px solid #82c400;
+	background: initial;
+}
+
+.rv3.service-item:before,.rv3.service-item:after  {
+	content: '';
+	position: absolute;
+}
+
+/*****************************
+	006 - team section
+******************************/
+/*#team.rv3{
+	background: url(../img-home-3/team/bg-team.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+.member-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.member-image a{
+	display: block;
+	position: relative;
+}
+.member-image a:before,.member-image a:after{
+	position: absolute;
+	left: 0 ;
+	right: 0 ;
+	top: 0;
+	bottom: 0 ;
+	margin: auto;
+	opacity: 0 ;
+	transform: scale(3);
+	transition: 0.3s ;
+}
+.member-image a:before{
+	content: "\f0c1";
+	font-family: FontAwesome;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff ;
+	z-index: 99;
+	font-size: 40px;
+}
+.member-image a:after{
+	content: "";
+	background: #82c400 ;
+}
+.member-image:hover a:before{
+	opacity: 1 ;
+	transform: scale(1);
+}
+.member-image:hover a:after{
+	opacity: 0.8 ;
+	transform: scale(1);
+}
+.rv3.team-description {
+    margin-top: 25px;
+}
+.team .rv2-title:before{
+	background: #82c400;
+}
+.team .rv2-title:after{
+	background: #fff;
+}
+.socile-link{
+	display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 0 ;
+}
+.socile-link li {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.socile-link li +li {
+	margin-left: 10px ;
+}
+.socile-link li a{
+	line-height: 25px;
+	color: #0f1a24 ;
+	background: #fff ;
+	display: block;
+}
+.socile-link li a:hover{
+	background: #82c400 ;
+}
+
+/*****************************
+	010 - portfolio section
+******************************/
+.portfolio-filter.rv3 ul li.active {
+    color: #82c400;
+    background: transparent;
+}
+.portfolio-filter.rv3 ul li.active:hover,
+.portfolio-filter.rv2 ul li:hover, 
+.portfolio-filter.rv2 ul li.view-all {
+    background: #82c400;
+    color: #fff ;
+}
+.rv3 .portfolio-item.portfolio-rv2{
+	display: block;
+	width: auto;
+	margin: 0 ;
+}
+.rv3 .portfolio_rv2-button{
+	margin-bottom: 60px;
+}
+.portfolio-wrapper{
+	/*max-width: 2000px;*/
+	margin: 0 auto;
+}
+
+.rv3 .portfolio-rv2 img {
+    max-width: 100%;
+    width: 100%;
+}
+/*****************************
+	009 - cta-button-rv2 section
+******************************/
+.rv3.cta-button-rv2 {
+    background: url(../img-home-3/portfolio/ctabg.jpg);
+    padding: 90px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rv3-overly{
+	position: relative;
+}
+.rv3-overly:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #0e3667;
+    opacity: .75;
+}
+
+.rv3-cta-content {
+    text-align: center;
+}
+.rv3-cta-content  .cta-title{
+    display: block;
+    margin-bottom: 20px;
+}
+.rv3-cta-content  .btn-rv {
+    color: #606060;
+}
+.rv3-cta-content  p{
+	color: #fff ;
+	margin-bottom: 30px;
+}
+.rv3-cta-content .btn-rv:hover {
+    background: #82c400;
+    color: #fff ;
+}
+/*****************************
+	007 - events section
+******************************/
+.rv3.rv2-title:before{
+	background: #82c400;
+}
+.rv3.single-event{
+	transition: 0.3s;
+	border: 1px solid #ebebeb ;
+}
+.rv3 .event-img:before {
+    background: #82c400;
+}
+.rv3.single-event ul i,.rv3.single-event:hover h3{
+	color: #82c400;
+}
+.rv3.single-event .btn-rv{
+	color: #707070 ;
+	background: #fff ;
+	border: 1px solid #707070 ;
+	margin-top: 20px;
+}
+.rv3.single-event .btn-rv:hover{
+	 background: #82c400;
+	 color: #fff ;
+	 border-color:#82c400;
+}
+
+.single-event-info {
+    padding: 30px;
+    padding-top: 0;
+}
+.rv3.single-event:hover{
+	box-shadow:0px 0px 40px -1px rgba(0,0,0,0.2) ;
+}
+
+/*****************************
+	008 - feedback section
+******************************/
+.rv3 .rv2-title {
+    margin-bottom: 50px;
+}
+.client-comment-curosel-rv3 .col-sm-8{
+	float: none;
+}
+.client.rv3 {
+    text-align: center;
+}
+.client-comment-curosel-rv3 .client-comment p {
+    color: #d2d2d2;
+    line-height: 35px;
+}
+.rv3 .client-info {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+.client-comment-curosel-rv3 .owl-nav .owl-next ,
+.client-comment-curosel-rv3 .owl-nav .owl-prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: transparent;
+    font-size: 50px;
+    color: #7d8390 ;
+    padding: 0;
+}
+
+.client-comment-curosel-rv3 .owl-nav .owl-next {
+	left: initial;
+	right: 0;
+}
+.client-comment-curosel-rv3.owl-theme .owl-nav{
+	margin-top:  0 ;
+}
+.client-comment-curosel-rv3 .owl-nav .owl-next:hover ,
+.client-comment-curosel-rv3 .owl-nav .owl-prev:hover{
+	background: transparent;
+}
+.client-comment-curosel-rv3 .client-img {
+    border: 2px solid #82c400;
+}
+
+
+/*****************************
+	011 - clients section
+******************************/
+
+
+
+
+/*****************************
+	012 - location section
+******************************/
+
+
+
+
+/*****************************
+	013 - letest-post section
+******************************/
+
+
+
+
+/*****************************
+	014 - newsletter section
+******************************/
+
+
+
+
+/*****************************
+	015 - footer section
+******************************/
+
+
+
+
