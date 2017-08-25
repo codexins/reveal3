@@ -144,6 +144,9 @@ ul{
 /*==========================
 	001 - header section
 ==========================*/
+.rv3 .navbar.affix .navbar-brand {
+    padding: 4px;
+}
 .rv3 .navbar.affix {
     background-color: #23dac9;
 }
@@ -247,6 +250,12 @@ ul{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
+.rv3.counter-item .rv2-title {
+    margin-bottom: 0;
+}
+.story-menu.rv3 ul li a {
+    padding: 5px 20px;
+}
 
 /*****************************
 	005 - services  section
@@ -282,12 +291,7 @@ ul{
 /*****************************
 	006 - team section
 ******************************/
-/*#team.rv3{
-	background: url(../img-home-3/team/bg-team.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}*/
+
 .member-image {
     width: 100%;
     height: 100%;
@@ -396,6 +400,14 @@ ul{
 .rv3 .portfolio-rv2 img {
     max-width: 100%;
     width: 100%;
+}
+.rv3 .portfolio-rv2:hover:before {
+    visibility: visible;
+    background: #82c400;
+}
+.image-content {
+    top: 50%;
+    transform: translateY(-50%);
 }
 /*****************************
 	009 - cta-button-rv2 section
@@ -524,33 +536,64 @@ ul{
 .client-comment-curosel-rv3 .client-img {
     border: 2px solid #82c400;
 }
-
-
-/*****************************
-	011 - clients section
-******************************/
-
-
-
-
-/*****************************
-	012 - location section
-******************************/
-
-
-
-
+.client-feedback .rv3.rv2-title {
+    margin-bottom: 50px;
+}
 /*****************************
 	013 - letest-post section
 ******************************/
-
-
-
-
+.rv3.single-post {
+    border: 1px solid #d7d7d7;
+}
+.rv3.single-post .btn-rv {
+    color: #707070;
+}
+.rv3.single-post .btn-rv:hover{
+	color: #fff ;
+}
+.post-list .single-post{
+	display: table;
+	width: 100% ;
+	margin-bottom: 0px;
+}
+.post-list > li + li {
+    margin-top: 53px;
+}
+.post-list .image-left {
+    display: table-cell;
+    width: 150px;
+}
+.post-list .image-left img{
+	width: 100%;
+    border: 1px solid #d7d7d7;
+}
+.post-list .post-list-info {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.post-list .single-post .post-info {
+    margin-bottom: 10px;
+}
+.post-list  .single-post p {
+    margin: 0;
+}
+.single-post.rv3 .btn-white:hover,
+.single-post.rv3 .post-img:before ,
+.single-post.rv3 .date-time{
+    background: #82c400;
+}
+.post-list .single-post .post-info ul i,
+.single-post.rv3  ul i {
+    color: #82c400;
+}
 /*****************************
 	014 - newsletter section
 ******************************/
 
+/*****************************
+	011 - clients section
+******************************/
 
 
 

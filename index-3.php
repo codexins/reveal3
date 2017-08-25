@@ -65,8 +65,6 @@
 			<p>Ne cum delectus electram cotidieque, an nulla vocent ornatus eum saperet tincidunt id. Mea an erplatonem. </p>
 			<a href="#" class="btn-btn-primary btn-rv rv3-bg-clr rv3-hover-clr">know more</a>
 		</div>
-
-		
 	</header>  <!-- end of header -->
 	
 	<div class="clearfix"></div>
@@ -165,7 +163,6 @@
 		</div> <!-- end of container -->
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
-
 	<!-- counter v2 start -->
 	<section id="counter_rv2" class="mrg-50 pad-50">
 		<div class="container">
@@ -409,8 +406,8 @@
 		</div> <!-- end of container -->
 		<div class="container-fluid">
 			<div class="row">
-				<div class="portfolio-wrapper">
-					<div class="col-md-3 pad-0 python">
+				<div class="portfolio-wrapper responsive-class">
+					<div class="col-md-3 col-sm-4 pad-0 python">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="img-home-3/portfolio/h3-port.jpg" alt="">
 							<a href="img-home-3/portfolio/h3-port.jpg" class="img-pop-up">
@@ -423,7 +420,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 pad-0 javascript php">
+					<div class="col-md-6 col-sm-4 pad-0 javascript php">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="img-home-3/portfolio/h3-port22.jpg" alt="">
 							<a href="img-home-3/portfolio/h3-port22.jpg" class="img-pop-up">
@@ -436,8 +433,7 @@
 							</a>
 						</div>
 					</div>
-			
-					<div class="col-md-3 pad-0 laravel python">
+					<div class="col-md-3 col-sm-4 pad-0 laravel python">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="img-home-3/portfolio/h3-port3.jpg" alt="">
 							<a href="img-home-3/portfolio/h3-port3.jpg" class="img-pop-up">
@@ -450,8 +446,7 @@
 							</a>
 						</div>
 					</div>
-				
-					<div class="col-md-3 pad-0 php">
+					<div class="col-md-3 col-sm-4 pad-0 php">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="img-home-3/portfolio/h3-port4.jpg" alt="">
 							<a href="img-home-3/portfolio/h3-port4.jpg" class="img-pop-up">
@@ -464,7 +459,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad-0 javascript python">
+					<div class="col-md-3 col-sm-4 pad-0 javascript python">
 						<div class="portfolio-item portfolio-rv2">
 							<img src="img-home-3/portfolio/h3-port5.jpg" alt="">
 							<a href="img-home-3/portfolio/h3-port5.jpg" class="img-pop-up">
@@ -567,7 +562,7 @@
 	<div class="clearfix"></div>
 
 	<!-- client fedback  -->
-	<section id="feedback" class="mrg-t-50 client-feedback">
+	<section id="feedback" class="mrg-50 client-feedback">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
@@ -637,6 +632,128 @@
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>
 
+	<!-- letest post  -->
+	<section id="letest_post" class="letest-post mrg-t-50">
+		<div class="container">
+			<div class="row">
+				<!-- section title  -->
+				<div class="col-sm-12">
+					<div class=" rv3 rv2-title center-block">
+						<h2 class="primary-title rv2">LATEST POST</h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
+			</div><!-- end of row -->
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="single-post rv3">
+						<div class="post-img">
+							<img src="rev-2-img/Latest-post-2.jpg" alt="">
+							<a href="#" class="btn-white btn-rv">read more</a>
+							<span class="date-time"> 12 aug</span>
+						</div>
+						<div class="single-event-info">
+							<div class="post-info">
+								<h3 class="title-3">Let’s Make Things Better.</h3>
+								<p>Technology</p>
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+									<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+									<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+								</ul>
+								
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<ul  class="post-list">
+						<li>
+							<div class="single-post">
+								<div class="image-left">
+									<img src="img-home-3/post-img/post-img.jpg" alt="">
+								</div>
+								<div class="post-list-info">
+									<div class="post-info">
+										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<ul>
+											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+											<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+										</ul>
+										
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium </p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="single-post">
+								<div class="image-left">
+									<img src="img-home-3/post-img/post-img.jpg" alt="">
+								</div>
+								<div class="post-list-info">
+									<div class="post-info">
+										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<ul>
+											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+											<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+										</ul>
+										
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium </p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="single-post">
+								<div class="image-left">
+									<img src="img-home-3/post-img/post-img.jpg" alt="">
+								</div>
+								<div class="post-list-info">
+									<div class="post-info">
+										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<ul>
+											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+											<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+										</ul>
+										
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium </p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="single-post">
+								<div class="image-left">
+									<img src="img-home-3/post-img/post-img.jpg" alt="">
+								</div>
+								<div class="post-list-info">
+									<div class="post-info">
+										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<ul>
+											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+											<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+										</ul>
+										
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium </p>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+
 	<!-- client carosel  -->
 	<div id="clients-rv2" class="clients mrg-50">
 		<div class="container-fluid">
@@ -672,153 +789,9 @@
 	</div> <!-- end of clients -->
 	<div class="clearfix"></div>
 
-	<!-- location google map and contact form  -->
-	<section id="location" class="location-rv2 mrg-50">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6 location-map">
-					<div id="map">
-						<div id="gmap-wrap">
-				 			<div id="gmap"> 				
-				 			</div>	 			
-				    	</div>
-					</div><!--/#map-->
-				</div>
-				<div class="col-sm-6 contact-form-wrapper-rv2">
-					<div class="contact-form-position">
-						<form id="contact-form" class="contact-form form-validate" action="sendemail.php" method="post">	
-							<div class="row">
-							  <div class="form-group col-sm-6">
-							    <label for="name" class="sr-only">Name</label>
-							    <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
-							  </div>
-							  <div class="form-group col-sm-6">
-							    <label for="exampleInputEmail1" class="sr-only">Email address</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email*" required>
-							  </div>
-							  <div class="form-group col-sm-12">
-							    <label for="subject" class="sr-only">Subject</label>
-							    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*" required>
-							  </div>
-
-							  <div class="form-group col-sm-12">
-								<textarea class="form-control" name="message" rows="3" placeholder="Your Message*" required></textarea>
-							  </div>
-								<div class="form-group col-sm-12">
-									<input type="submit" id="rv2-btn" class="btn-rv" value="Submit">
-								</div>
-							</div>	
-						 </form> 	
-					</div> <!-- end of col -->
-				</div> <!-- end of col -->
-			</div> <!-- end of row -->
-		</div> <!-- end of container-fluid -->
-	</section> <!-- location google map and contact form  -->
-	<div class="clearfix"></div>
-
-	<!-- letest post  -->
-	<section id="letest_post" class="letest-post mrg-t-50">
-		<div class="container">
-			<div class="row">
-				<!-- section title  -->
-				<div class="col-sm-12">
-					<div class=" rv3 rv2-title center-block">
-						<h2 class="primary-title rv2">LATEST POST</h2>
-						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
-					</div>
-				</div>  <!-- end of col-sm-12 -->
-			</div><!-- end of row -->
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="single-post">
-						<div class="post-img">
-							<img src="rev-2-img/Latest-post-1.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="single-post">
-						
-						<div class="post-img">
-							<img src="rev-2-img/Latest-post-2.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-							
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="single-post">
-						
-						<div class="post-img">
-							<img src="rev-2-img/Latest-post-3.jpg" alt="">
-							<a href="#" class="btn-white btn-rv">read more</a>
-							<span class="date-time"> 12 aug</span>
-						</div>
-						<div class="post-info">
-							<h3 class="title-3">Let’s Make Things Better.</h3>
-							<p>Technology</p>
-							<ul>
-								<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-								<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-								<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-							</ul>
-							
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
-					</div>
-				</div>
-			</div> <!-- end of row -->
-		</div> <!-- end of container -->
-	</section> <!-- end of section -->
-	<div class="clearfix"></div>
-
-	<!-- lewsletter -->
-	<section class="newsletter mrg-t-50 ">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="newsletter-title">
-						<h3>newsletter subscribe </h3>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="newsletter-form">
-						<form>
-							<input type="text" class="newsletter-field" placeholder="yourdomain@domain.com">
-							<button type="submit" class="newsletter-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-						</form>
-					</div>
-				</div>
-			</div> <!-- end of row	 -->
-		</div> <!-- end of container	 -->
-	</section> <!-- end of section	 -->
-	<div class="clearfix"></div>
 
 	<!-- footer section  -->
-	<footer class="footer">
+	<footer class="footer mrg-t-50">
 		<div class="container">
 			<div class="row footer-widget">
 				<div class="col-md-3 col-sm-6 ">
@@ -945,9 +918,9 @@
 	<!-- google map api and gmaps JS
 
 	============================================ -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script>
+<!-- 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script>
 	<script src="js/gmaps.js"></script>
-	<script src="js/gmap-coustom.js"></script>
+	<script src="js/gmap-coustom.js"></script> -->
 	<!-- main JS
 	============================================ -->
 	<script src="js/main.js"></script>
