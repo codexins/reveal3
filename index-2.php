@@ -504,7 +504,7 @@
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
-				<div class="client-comment-curosel owl-carousel owl-theme">
+				<div class="client-comment-curosel">
 					<div class="col-sm-6">
 						<div class="client ">
 							<div class="client-info">
@@ -1003,9 +1003,9 @@
 	============================================ -->
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
-	<!-- owl JS
+	<!-- slick JS
 	============================================ -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/slick.min.js"></script>
 	<!-- Isotope JS
 	============================================ -->
 	<script src="js/imagesloaded.pkgd.min.js"></script>

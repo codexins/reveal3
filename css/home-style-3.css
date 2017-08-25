@@ -494,8 +494,8 @@ ul{
 .rv3 .rv2-title {
     margin-bottom: 50px;
 }
-.client-comment-curosel-rv3 .col-sm-8{
-	float: none;
+.slick-slide:focus{
+	outline:  0;
 }
 .client.rv3 {
     text-align: center;
@@ -561,7 +561,7 @@ ul{
 }
 .post-list .image-left {
     display: table-cell;
-    width: 150px;
+    width: 165px;
 }
 .post-list .image-left img{
 	width: 100%;

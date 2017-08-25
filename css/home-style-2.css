@@ -412,8 +412,8 @@ section{
 .header.rv2 .slider-text {
     top: 50%;
 }
-.arrow-middle .owl-prev,
-.arrow-middle .owl-next {
+/*.arrow-middle .owl-prev,*/
+.arrow-middle .slick-arrow {
     position: absolute;
     font-size: 35px;
     color: #fff;
@@ -423,11 +423,18 @@ section{
     bottom: 0;
     margin: auto;
     height: 40px;
+    background: transparent;
+    border: 0;
+    z-index: 9;
 }
-.arrow-middle .owl-prev{
+.arrow-middle .slick-arrow:focus{
+	outline: 0 ;
+}
+/*button.slick-next.slick-arrow*/
+.arrow-middle .slick-prev{
 	left: 30px;
 }
-.arrow-middle .owl-next{
+.arrow-middle .slick-next{
 	right: 30px;
 }
 .slider-text h3 {
@@ -739,6 +746,7 @@ section#counter_rv2:before {
 	background-position: center;
 	position: relative;
 	padding: 100px 0;
+	padding-bottom: 120px;
 }
 .client-comment,
 .client-name .title-3,
@@ -796,10 +804,26 @@ section#counter_rv2:before {
 .client-comment-curosel .col-sm-6{
 	width: 100%;
 }
-.client-comment-curosel.owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 40px;
-    height: 20px;
-    overflow: hidden;
+.slick-dots li button:before,
+.slider .slick-arrow:before ,
+.client-comment-curosel .slick-arrow:before {
+    content: none;
+}
+.client-comment-curosel .slick-dots li button {
+    background: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.client-comment-curosel  .slick-dots li {
+    width: initial;
+    height: initial;
+}
+.client-comment-curosel ul.slick-dots {
+    bottom: -50px;
+}
+.client-comment-curosel .slick-slide:focus{
+	outline: 0 ;
 }
 /***********************************
 	009 - cta-button-rv2 section

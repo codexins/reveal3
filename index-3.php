@@ -592,7 +592,7 @@
 							</div>
 						</div>
 					</div>
-										<div class="col-sm-8 center-block">
+					<div class="col-sm-8 center-block">
 						<div class="client rv3 ">
 							<div class="client-comment">
 								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
@@ -609,7 +609,7 @@
 							</div>
 						</div>
 					</div>
-										<div class="col-sm-8 center-block">
+					<div class="col-sm-8 center-block">
 						<div class="client rv3 ">
 							<div class="client-comment">
 								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
@@ -648,7 +648,7 @@
 				<div class="col-sm-6">
 					<div class="single-post rv3">
 						<div class="post-img">
-							<img src="rev-2-img/Latest-post-2.jpg" alt="">
+							<img src="img-home-3/post-img/02_home-big.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
 							<span class="date-time"> 12 aug</span>
 						</div>
@@ -676,7 +676,7 @@
 								</div>
 								<div class="post-list-info">
 									<div class="post-info">
-										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 										<ul>
 											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
 											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
@@ -695,7 +695,7 @@
 								</div>
 								<div class="post-list-info">
 									<div class="post-info">
-										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 										<ul>
 											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
 											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
@@ -714,7 +714,7 @@
 								</div>
 								<div class="post-list-info">
 									<div class="post-info">
-										<h3 class="title-3">Let’s Make Things Better.</h3>
+										<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 										<ul>
 											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
 											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
@@ -726,27 +726,7 @@
 								</div>
 							</div>
 						</li>
-
-						<li>
-							<div class="single-post">
-								<div class="image-left">
-									<img src="img-home-3/post-img/post-img.jpg" alt="">
-								</div>
-								<div class="post-list-info">
-									<div class="post-info">
-										<h3 class="title-3">Let’s Make Things Better.</h3>
-										<ul>
-											<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
-											<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
-											<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
-										</ul>
-										
-									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium </p>
-								</div>
-							</div>
-						</li>
-
+						
 					</ul>
 				</div>
 			</div> <!-- end of row -->
@@ -899,9 +879,10 @@
 	============================================ -->
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
-	<!-- owl JS
+	<!-- slick JS
 	============================================ -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	
 	<!-- Isotope JS
 	============================================ -->
 	<script src="js/imagesloaded.pkgd.min.js"></script>

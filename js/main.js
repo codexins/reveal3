@@ -44,23 +44,6 @@ $(function() {
 	client carouel
 	---------------------------------------------------------------- */
 
-	$("#client-carousel").owlCarousel({
-
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
-		navigation: false,
-		pagination: false,
-		items : 6,
-		itemsDesktop : [1199,6],
-		itemsDesktopSmall : [991,5],
-		itemsTablet : [767,5],
-		itemsTabletSmall : [599,4],
-		itemsMobile : [420, 3]
-
-	});
-
-
-
-
 	/*--------------------------------------------------------------
 	Isotope Js for Portfolio Section
     ---------------------------------------------------------------- */
@@ -214,67 +197,79 @@ $(function() {
 	wow.init();
 	// full screen slider 
 
-	$(".slider").owlCarousel({
-		autoplay: true, //Set AutoPlay to 2 seconds
-		loop:true,
-		nav:true,
-		dots: false,
-		navigation:true,
-		pagination:false,
-		items : 1,
-		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-	});
+	
+	$('.slider').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+	  prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+	  nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
 
+	});
 		/*--------------------------------------------------------------
 	client carouel
 	---------------------------------------------------------------- */
-
-	$("#client-carousel-rv2").owlCarousel({
-
-		autoPlay: true, //Set AutoPlay to 3 seconds
-		navigation: false,
-		pagination: false,
-		margin:180,
-		items : 5,
-		responsive:{
-		    0:{
-		        items:2,
-		        margin:80
-
-		    },
-		    600:{
-		        items:4,
-		        margin:100
-		    },
-		    1000:{
-		        items:5,
-		        margin:100
-		    }
-		}
-
+	$('.client-comment-curosel').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		dots:true,
+		arrows:false
 	});
- 
 
-	$(".client-comment-curosel-rv3").owlCarousel({
-		loop:true,
-		nav:true,
+
+	$('#client-carousel-rv2').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
 		dots:false,
-		navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-		autoplay:true,
-		responsive:{
-		    0:{
-		        items:1
+		arrows:false,
+		centerMode:true,
+		responsive: [
+		    {
+		      breakpoint: 1024,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
 		    },
-		    600:{
-		        items:1
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
 		    },
-		    1000:{
-		        items:1
-		    }
-		}
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }]
 
 	});
-		    
+
+
+ 	$('.client-comment-curosel-rv3').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		autoplaySpeed: 2000,
+		dots:false,
+		arrows:false,
+		prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+	  	nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+
+	});
+
+
+   
 
 function form_validation(id_or_class){
  	$(id_or_class).validate({
