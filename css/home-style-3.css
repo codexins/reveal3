@@ -35,8 +35,8 @@ INDEX:
 ==>>> portfolio page  <<<==
 	17. portfolio page 
 
-==>>>single blog page  <<<==
-	18. single blog page 
+==>>>rv3-single blog page  <<<==
+	18. rv3-single blog page 
 	19. sidebar  
 	
 
@@ -381,8 +381,14 @@ ul{
 .portfolio-filter.rv3 ul li.active:hover,
 .portfolio-filter.rv2 ul li:hover, 
 .portfolio-filter.rv2 ul li.view-all {
-    background: #82c400;
     color: #fff ;
+}
+/*.portfolio-filter.rv2 ul li:hover*/
+
+.portfolio-filter.rv3 ul li.view-all,
+.portfolio-filter.rv3 ul li:hover,
+.portfolio-filter.rv3 ul li.active:hover{
+	    background: #82c400;
 }
 .rv3 .portfolio-item.portfolio-rv2{
 	display: block;
@@ -452,39 +458,52 @@ ul{
     background: #82c400;
     color: #fff ;
 }
+.tab-content p:last-child{
+	margin-bottom: 0 ;
+}
 /*****************************
 	007 - events section
 ******************************/
 .rv3.rv2-title:before{
 	background: #82c400;
 }
-.rv3.single-event{
+.rv3.rv3-single-event{
 	transition: 0.3s;
 	border: 1px solid #ebebeb ;
+}
+.rv3-single-event:hover .event-img:before {
+    opacity: 0.75;
+}
+.rv3-single-event ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.rv3-single-post:hover .post-img:before {
+    opacity: .7;
+    visibility: visible;
 }
 .rv3 .event-img:before {
     background: #82c400;
 }
-.rv3.single-event ul i,.rv3.single-event:hover h3{
+.rv3.rv3-single-event ul i,.rv3.rv3-single-event:hover h3{
 	color: #82c400;
 }
-.rv3.single-event .btn-rv{
+.rv3.rv3-single-event .btn-rv{
 	color: #707070 ;
 	background: #fff ;
 	border: 1px solid #707070 ;
 	margin-top: 20px;
 }
-.rv3.single-event .btn-rv:hover{
+.rv3.rv3-single-event .btn-rv:hover{
 	 background: #82c400;
 	 color: #fff ;
 	 border-color:#82c400;
 }
-
-.single-event-info {
+.rv3-single-event-info {
     padding: 30px;
     padding-top: 0;
 }
-.rv3.single-event:hover{
+.rv3.rv3-single-event:hover{
 	box-shadow:0px 0px 40px -1px rgba(0,0,0,0.2) ;
 }
 
@@ -542,16 +561,16 @@ ul{
 /*****************************
 	013 - letest-post section
 ******************************/
-.rv3.single-post {
+.rv3.rv3-single-post {
     border: 1px solid #d7d7d7;
 }
-.rv3.single-post .btn-rv {
+.rv3.rv3-single-post .btn-rv {
     color: #707070;
 }
-.rv3.single-post .btn-rv:hover{
+.rv3.rv3-single-post .btn-rv:hover{
 	color: #fff ;
 }
-.post-list .single-post{
+.post-list .rv3-single-post{
 	display: table;
 	width: 100% ;
 	margin-bottom: 0px;
@@ -561,31 +580,52 @@ ul{
 }
 .post-list .image-left {
     display: table-cell;
-    width: 165px;
+    width: 163px;
 }
 .post-list .image-left img{
 	width: 100%;
     border: 1px solid #d7d7d7;
+    transition: 0.3s ;
 }
 .post-list .post-list-info {
     display: table-cell;
     vertical-align: middle;
     padding-left: 30px;
 }
-.post-list .single-post .post-info {
+.post-list .rv3-single-post .post-info {
     margin-bottom: 10px;
 }
-.post-list  .single-post p {
+.post-list  .rv3-single-post p {
     margin: 0;
 }
-.single-post.rv3 .btn-white:hover,
-.single-post.rv3 .post-img:before ,
-.single-post.rv3 .date-time{
+.rv3-single-post.rv3 .btn-white:hover,
+.rv3-single-post.rv3 .post-img:before ,
+.rv3-single-post.rv3 .date-time{
     background: #82c400;
 }
-.post-list .single-post .post-info ul i,
-.single-post.rv3  ul i {
+.post-list .rv3-single-post .post-info ul i,
+.rv3-single-post.rv3  ul i {
     color: #82c400;
+}
+.post-info h3.title-3:hover {
+    color: #82c400;
+}
+.post-list .image-left img:hover{
+	border: 1px solid #82c400;
+}
+.rv3-single-post .title-3 {
+   transition: 0.3s;
+}
+#toTop.rv3{
+	background: #82c400;
+}
+.rv3-single-post ul li a {
+    color: #707070;
+    font-size: 16px;
+}
+.rv3-single-post ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 /*****************************
 	014 - newsletter section
@@ -594,7 +634,15 @@ ul{
 /*****************************
 	011 - clients section
 ******************************/
-
+.client-feedback .center-block{
+	float: none;
+}
+.client-comment-curosel-rv3.arrow-middle .slick-prev {
+    left: -100px;
+}
+.client-comment-curosel-rv3.arrow-middle .slick-next {
+    right:  -100px;
+}
 
 
 /*****************************

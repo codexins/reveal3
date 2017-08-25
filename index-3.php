@@ -299,7 +299,7 @@
 			</div>
 			<div class="row">	
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv3-single-team">
 						<div class="member-image">
 							<a href="#">
 								<img src="img-home-3/team/team_1.png" alt="Team" class="img-responsive" />
@@ -318,7 +318,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv3-single-team">
 						<div class="member-image">
 							<a href="#">
 								<img src="img-home-3/team/team_2.png" alt="Team" class="img-responsive" />
@@ -337,7 +337,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv3-single-team">
 						<div class="member-image">
 							<a href="#">
 								<img src="img-home-3/team/team_3.png" alt="Team" class="img-responsive" />
@@ -356,7 +356,7 @@
 					</div>
 				</div>
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv3-single-team">
 						<div class="member-image">
 							<a href="#">
 								<img src="img-home-3/team/team_4.png" alt="Team" class="img-responsive" />
@@ -507,9 +507,9 @@
 				</div>  <!-- end of col-sm-12 -->
 				<div class="cleasrfix"></div>
 				<div class="col-sm-6">
-					<div class="single-event rv3 mrg-b-50">
+					<div class="rv3-single-event rv3 mrg-b-50">
 						<div class="event-img"><img src="rev-2-img/Event-left.jpg" alt=""></div>
-						<div class="single-event-info">
+						<div class="rv3-single-event-info">
 							<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 
 							<ul>
@@ -531,11 +531,11 @@
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<div class="single-event rv3 mrg-b-50">
+					<div class="rv3-single-event rv3 mrg-b-50">
 						<div class="event-img"><img src="rev-2-img/Event-right.jpg" alt=""></div>
 
 
-						<div class="single-event-info">
+						<div class="rv3-single-event-info">
 							<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 							<p>
 								<ul>
@@ -573,9 +573,8 @@
 					</div>
 				</div>  <!-- end of col-sm-12 -->
 				<div class="clearfix"></div>
-				<div class="client-comment-curosel-rv3 owl-carousel owl-theme">
-					
-					<div class="col-sm-8 center-block">
+				<div class="col-sm-9 center-block">
+					<div class="client-comment-curosel-rv3 arrow-middle">
 						<div class="client rv3 ">
 							<div class="client-comment">
 								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
@@ -591,8 +590,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-8 center-block">
 						<div class="client rv3 ">
 							<div class="client-comment">
 								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
@@ -608,8 +605,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-8 center-block">
 						<div class="client rv3 ">
 							<div class="client-comment">
 								<p>Minim scaevola sensibus ei vis, an eam dicat numquam. Qui partem mediocritatem conclusionemque ne. 
@@ -625,6 +620,7 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div> <!-- end of row -->
@@ -646,13 +642,13 @@
 			</div><!-- end of row -->
 			<div class="row">
 				<div class="col-sm-6">
-					<div class="single-post rv3">
+					<div class="rv3-single-post rv3">
 						<div class="post-img">
 							<img src="img-home-3/post-img/02_home-big.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
 							<span class="date-time"> 12 aug</span>
 						</div>
-						<div class="single-event-info">
+						<div class="rv3-single-event-info">
 							<div class="post-info">
 								<h3 class="title-3">Let’s Make Things Better.</h3>
 								<p>Technology</p>
@@ -670,9 +666,9 @@
 				<div class="col-sm-6">
 					<ul  class="post-list">
 						<li>
-							<div class="single-post">
+							<div class="rv3-single-post">
 								<div class="image-left">
-									<img src="img-home-3/post-img/post-img.jpg" alt="">
+									<a href="#"><img src="img-home-3/post-img/post-img.jpg" alt=""></a>
 								</div>
 								<div class="post-list-info">
 									<div class="post-info">
@@ -689,9 +685,9 @@
 							</div>
 						</li>
 						<li>
-							<div class="single-post">
+							<div class="rv3-single-post">
 								<div class="image-left">
-									<img src="img-home-3/post-img/post-img.jpg" alt="">
+									<a href="#"><img src="img-home-3/post-img/post-img.jpg" alt=""></a>
 								</div>
 								<div class="post-list-info">
 									<div class="post-info">
@@ -708,9 +704,9 @@
 							</div>
 						</li>
 						<li>
-							<div class="single-post">
+							<div class="rv3-single-post">
 								<div class="image-left">
-									<img src="img-home-3/post-img/post-img.jpg" alt="">
+									<a href="#"><img src="img-home-3/post-img/post-img.jpg" alt=""></a>
 								</div>
 								<div class="post-list-info">
 									<div class="post-info">
@@ -862,7 +858,7 @@
 		</div>
 	</footer><!-- end footer --> 
 	<!-- Go to Top Button at right bottom of the window screen -->
-	<div id="toTop" style="">
+	<div id="toTop" class="rv3" style="">
 		<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 	</div>
 	 <!-- Go to Top Button finished-->

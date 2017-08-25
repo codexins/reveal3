@@ -36,8 +36,8 @@ INDEX:
 ==>>> portfolio page  <<<==
 	17. portfolio page 
 
-==>>>single blog page  <<<==
-	18. single blog page 
+==>>>rv2-single blog page  <<<==
+	18. rv2-single blog page 
 	19. sidebar  
 	
 
@@ -632,7 +632,7 @@ section#counter_rv2:before {
 .team  .team-description p {
 	color: #e1e1e1 ;
 }
-.rv2.team .single-team-wrapper {
+.rv2.team .rv2-single-team-wrapper {
     position: absolute;
     left: 0;
     top: 0;
@@ -675,7 +675,7 @@ section#counter_rv2:before {
 }
 
 
-.rv2.team .single-team {
+.rv2.team .rv2-single-team {
     margin-top: 0;
     position: relative;
 }
@@ -697,22 +697,22 @@ section#counter_rv2:before {
 }
 */
 
-.single-event .title-3{
+.rv2-single-event .title-3{
 	font-size: 25px;
     margin-bottom: 13px;
 	transition: 0.3s ;
 }
-.single-event ul{
+.rv2-single-event ul{
 	list-style-type: none;
 	padding-left: 0 ;
     margin-bottom: 24px;
 }
-.single-event ul li {
+.rv2-single-event ul li {
     display: inline-block;
     margin-right: 20px;
 }
-.single-event ul i,
-.single-event:hover h3{
+.rv2-single-event ul i,
+.rv2-single-event:hover h3{
 	color: #23dac9 ;
 }
 .event-img {
@@ -730,10 +730,10 @@ section#counter_rv2:before {
     opacity: 0;
     transition: 0.3s ;
 }
-.single-event:hover .event-img:before {
+.rv2-single-event:hover .event-img:before {
 	opacity: 0.75 ;
 }
-.single-event ul i {
+.rv2-single-event ul i {
     margin-right: 10px;
 }
 /***********************************
@@ -806,6 +806,7 @@ section#counter_rv2:before {
 }
 .slick-dots li button:before,
 .slider .slick-arrow:before ,
+.arrow-middle .slick-arrow:before ,
 .client-comment-curosel .slick-arrow:before {
     content: none;
 }
@@ -1094,7 +1095,7 @@ section.cta-button-rv2 {
     transition: 0.3s;
 
 }
-.single-post:hover .date-time{
+.rv2-single-post:hover .date-time{
 	opacity: 0 ;
 	visibility: visible;
 }
@@ -1118,39 +1119,39 @@ section.cta-button-rv2 {
     opacity: 0 ;
     transition: 0.3s ;
 }
-.single-post {
+.rv2-single-post {
     margin-bottom: 50px;
 }
-.single-post:hover .post-img:before{
+.rv2-single-post:hover .post-img:before{
 	opacity: .7;
 	visibility: visible;
 }
-.single-post .post-info {
+.rv2-single-post .post-info {
 	margin-bottom: 30px;
 }
-.single-post:hover .post-img a{
+.rv2-single-post:hover .post-img a{
 	opacity: 1 ;
 }
-.single-post ul{
+.rv2-single-post ul{
 	margin-bottom: 0px;
 	padding-left: 0 ;
 }
-.single-post ul li {
+.rv2-single-post ul li {
     display: inline-block;
     margin-right: 20px;
 }
-.single-post ul i {
+.rv2-single-post ul i {
     color: #23dac9;
     margin-right: 5px;
 }
-.single-post ul li a{
+.rv2-single-post ul li a{
     color: #707070;
     font-size: 16px;
 }
-.single-post .title-3{
+.rv2-single-post .title-3{
 	margin-bottom:10px ;
 }
-.single-post p{
+.rv2-single-post p{
 	
 }
 /***********************************	
@@ -1402,7 +1403,7 @@ div#toTop {
     margin-bottom: 10px;
 }
 /*==========================
-18. single blog page 
+18. rv2-single blog page 
 ==========================*/
 .left-align{
 	text-align: left;
@@ -1415,7 +1416,7 @@ div#toTop {
 	right: inherit;
 	left: 40px;
 }
-.single-page .post-img:before {
+.rv2-single-page .post-img:before {
 	content: none;
 }
 .date-overimage{
@@ -1428,7 +1429,7 @@ div#toTop {
 .date-overimage span{
 	color: #fff ;
 }
-.single-post blockquote {
+.rv2-single-post blockquote {
     background: #e8fcfa;
     border: 0;
     padding: 30px 25px;
@@ -1437,41 +1438,41 @@ div#toTop {
     margin-bottom: 60px;
     font-weight: 500;
 }
-.single-post blockquote:before,
-.single-post blockquote:after {
+.rv2-single-post blockquote:before,
+.rv2-single-post blockquote:after {
 	position: absolute;
 	z-index: 99;
 	font-family:  FontAwesome;
 	color: #23dac9;
 }
-.single-post blockquote:before{
+.rv2-single-post blockquote:before{
 	content: "\f10d";
 	left: 25px;
 	top: 25px;
 }
-.single-post blockquote:after {
+.rv2-single-post blockquote:after {
 	content: "\f10e";
 	right: 25px;
 	bottom: 25px;
 }
-.single-post blockquote p {
+.rv2-single-post blockquote p {
     padding: 0 30px;
     line-height: 35px;
     font-size: 16px;
 }
-.single-page .single-post ul {
+.rv2-single-page .rv2-single-post ul {
     padding-left: 0;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.single-page .single-post ul li{}
-.single-page .single-post ul li i{
+.rv2-single-page .rv2-single-post ul li{}
+.rv2-single-page .rv2-single-post ul li i{
 	margin-right: 40px;
 }
-.single-page .single-post ul a{
+.rv2-single-page .rv2-single-post ul a{
 	line-height: 40px;
 }
-.single-page .single-post ul li a:hover{}
+.rv2-single-page .rv2-single-post ul li a:hover{}
 .meta-info {
     overflow: hidden;
 }

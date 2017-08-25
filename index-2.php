@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css" type='text/css'>
 	<!-- Master stylesheet
 	============================================ -->
+
+
 	<link rel="stylesheet" href="master.css" type='text/css'>
 	<link rel="stylesheet" href="css/animate.css" type='text/css'>
 	<!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type='text/css'> -->
@@ -355,9 +357,9 @@
 			<div class="row">	
 				<div class="col-sm-3 team-wrap">
 					
-					<div class="single-team">
+					<div class="rv2-single-team">
 						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
+						<div class="rv2-single-team-wrapper">
 							<div class="team-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -374,9 +376,9 @@
 				</div>
 
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv2-single-team">
 						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
+						<div class="rv2-single-team-wrapper">
 							<div class="team-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -392,9 +394,9 @@
 				</div>
 
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv2-single-team">
 						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
+						<div class="rv2-single-team-wrapper">
 							<div class="team-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -410,9 +412,9 @@
 				</div>
 
 				<div class="col-sm-3 team-wrap">
-					<div class="single-team">
+					<div class="rv2-single-team">
 						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
-						<div class="single-team-wrapper">
+						<div class="rv2-single-team-wrapper">
 							<div class="team-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -446,7 +448,7 @@
 				</div>  <!-- end of col-sm-12 -->
 				<div class="cleasrfix"></div>
 				<div class="col-sm-6">
-					<div class="single-event mrg-b-50">
+					<div class="rv2-single-event mrg-b-50">
 						<div class="event-img"><img src="rev-2-img/Event-left.jpg" alt=""></div>
 						<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 
@@ -467,7 +469,7 @@
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<div class="single-event mrg-b-50">
+					<div class="rv2-single-event mrg-b-50">
 						<div class="event-img"><img src="rev-2-img/Event-right.jpg" alt=""></div>
 						<a href="#"><h3 class="title-3">Let’s Make Things Better.</h3></a>
 						<p>
@@ -807,7 +809,7 @@
 			</div><!-- end of row -->
 			<div class="row">
 				<div class="col-sm-4">
-					<div class="single-post">
+					<div class="rv2-single-post">
 						<div class="post-img">
 							<img src="rev-2-img/Latest-post-1.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
@@ -826,7 +828,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="single-post">
+					<div class="rv2-single-post">
 						
 						<div class="post-img">
 							<img src="rev-2-img/Latest-post-2.jpg" alt="">
@@ -847,7 +849,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="single-post">
+					<div class="rv2-single-post">
 						
 						<div class="post-img">
 							<img src="rev-2-img/Latest-post-3.jpg" alt="">

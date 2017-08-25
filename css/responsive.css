@@ -146,7 +146,7 @@
 	.rv2-icon-1{
 		margin-bottom: 15px;
 	}
-	.single-event .title-3,
+	.rv2-single-event .title-3,
 	.title-3 {
 	    font-size: 17px;
 	    margin-bottom: 15px;
@@ -175,7 +175,7 @@
 	    padding-right: 20px;
 	    text-align: center;
 	}
-	.single-event ul li {
+	.rv2-single-event ul li {
 	    margin-right: 10px;
 	    font-size: 13px;
 	}
@@ -183,13 +183,13 @@
 	    font-size: 15px;
 	    float: left;
 	}
-	.single-post ul li a {
+	.rv2-single-post ul li a {
 	    font-size: 13px;
 	}
-	.single-post ul li {
+	.rv2-single-post ul li {
 	    margin-right: 3px;
 	}
-	.single-post:hover .post-img a {
+	.rv2-single-post:hover .post-img a {
 	    padding: 10px 15px;
 	}
 /* end home version 2 */
@@ -592,14 +592,15 @@
     top: 50%;
     margin: 0;
 }
-.client-comment-curosel-rv3 .owl-nav .owl-next ,
-.client-comment-curosel-rv3 .owl-nav .owl-prev {
+.client-comment-curosel-rv3.arrow-middle .slick-prev,
+.client-comment-curosel-rv3.arrow-middle .slick-next{
 	top: inherit;
 	left: 50%;
 	right: inherit;
 	transform: translateX(-100%);
+	bottom: -50px;
 }
-.client-comment-curosel-rv3 .owl-nav .owl-next {
+.client-comment-curosel-rv3.arrow-middle .slick-next{
 	left: inherit;
 	right: 50%;
 	transform: translateX(100%);
