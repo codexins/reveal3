@@ -20,17 +20,6 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css" type='text/css'>
 	<!-- Master stylesheet
 	============================================ -->
-	<!-- Core CSS file -->
-	<link rel="stylesheet" href="css/photoswipe.css"> 
-
-	<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-	     In the folder of skin CSS file there are also:
-	     - .png and .svg icons sprite, 
-	     - preloader.gif (for browsers that do not support CSS animations) -->
-	<link rel="stylesheet" href="css/default-skin.css"> 
-
-
-
 	<link rel="stylesheet" href="master.css" type='text/css'>
 	<link rel="stylesheet" href="css/animate.css" type='text/css'>
 	<!-- <link rel="stylesheet" href="css/owl.carousel.min.css" type='text/css'> -->
@@ -42,20 +31,16 @@
 <body>
     <!--[if lt IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-
-         <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-
     <![endif]-->
 
-
 	<!--  Site Loader -->
-	<!--  
+	<!-- 
 		<div id="loader">
 			<div class="cssload-container">
 				<div class="cssload-speeding-wheel"></div>
 			</div>
 		</div> 
-	 -->
+	-->
 	<!--  Site Loader finished -->
 	<!-- header section start -->
 
@@ -421,94 +406,73 @@
 		</div> <!-- end of container -->
 		<div class="container-fluid">
 			<div class="row">
-
-				<div class="portfolio-wrapper responsive-class" itemscope itemtype="http://schema.org/ImageGallery">
-					<div class="portfolio col-sm-3 pad-0 javascript">
-						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
-						    <a href="img-home-3/portfolio/h3-port.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port.jpg" itemprop="thumbnail" class="img-responsive" />
-						    </a>  
-						    <figcaption itemprop="caption description"></figcaption>
-							<div class="image-mask">
-								<div class="image-content">
-									<a href="img-home-3/portfolio/h3-port22.jpg">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</a>
-									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo </a></h3>
-
+				<div class="portfolio-wrapper responsive-class">
+					<div class="col-md-3 col-sm-4 pad-0 python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</figure>
+							</a>
+						</div>
 					</div>
-					<div class="portfolio col-sm-6 pad-0 laravel python">
-						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
-						    <a href="img-home-3/portfolio/h3-port22.jpg" itemprop="contentUrl" data-size="675x402">
-						        <img src="img-home-3/portfolio/h3-port22.jpg" itemprop="thumbnail" class="img-responsive" />
-						    </a>  
-						    <figcaption itemprop="caption description"></figcaption>
-							<div class="image-mask">
-								<div class="image-content">
-									<a href="img-home-3/portfolio/h3-port22.jpg">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</a>
-									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo </a></h3>
+					<div class="col-md-6 col-sm-4 pad-0 javascript php">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port22.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port22.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-
-						</figure>
+							</a>
+						</div>
 					</div>
-					<div class="portfolio col-sm-3 pad-0 python">
-						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
-						    <a href="img-home-3/portfolio/h3-port3.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port3.jpg" itemprop="thumbnail" class="img-responsive" />
-						    </a>  
-						    <figcaption itemprop="caption description"></figcaption>
-							<div class="image-mask">
-								<div class="image-content">
-									<a href="img-home-3/portfolio/h3-port22.jpg">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</a>
-									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo</a></h3>
+					<div class="col-md-3 col-sm-4 pad-0 laravel python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port3.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port3.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</figure>
+							</a>
+						</div>
 					</div>
-					<div class="portfolio col-sm-3 pad-0 php">
-						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
-						    <a href="img-home-3/portfolio/h3-port4.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port4.jpg" itemprop="thumbnail" class="img-responsive" />
-						    </a>  
-						    <figcaption itemprop="caption description"></figcaption>
-							<div class="image-mask">
-								<div class="image-content">
-									<a href="img-home-3/portfolio/h3-port22.jpg">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</a>
-									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo </a></h3>
-				
+					<div class="col-md-3 col-sm-4 pad-0 php">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port4.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port4.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</figure>
+							</a>
+						</div>
 					</div>
-					<div class="portfolio col-sm-3 pad-0 php python">
-						<figure class="" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
-						    <a href="img-home-3/portfolio/h3-port5.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" />
-						    </a>  
-						    <figcaption itemprop="caption description"></figcaption>
-							<div class="image-mask">
-								<div class="image-content">
-									<a href="img-home-3/portfolio/h3-port22.jpg">
-										<i class="fa fa-search" aria-hidden="true"></i>
-									</a>
-									<h3 class="portfolio-title"> <a href="#" class="clickable"> Lorem Ipsum Demo </a></h3>
-									
+					<div class="col-md-3 col-sm-4 pad-0 javascript python">
+						<div class="portfolio-item portfolio-rv2">
+							<img src="img-home-3/portfolio/h3-port5.jpg" alt="">
+							<a href="img-home-3/portfolio/h3-port5.jpg" class="img-pop-up">
+								<div class="image-mask">
+									<div class="image-content">
+										<i class="flaticon-plus-sign-to-add"></i>
+										<p>Lorem Ipsum Demo</p>
+									</div>
 								</div>
-							</div>
-						</figure>
+							</a>
+						</div>			
 					</div>
-	            </div><!-- end of portfolio-wrapper -->
-
+				</div> <!-- end of portfolio-wrapper -->
 			</div>
 		</div>
 	</section> <!-- end of section -->
@@ -893,76 +857,6 @@
 			</div>
 		</div>
 	</footer><!-- end footer --> 
-
-	<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-          </div>
-
-        </div>
-
-</div>
-
-
-
-
 	<!-- Go to Top Button at right bottom of the window screen -->
 	<div id="toTop" class="rv3" style="">
 		<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
@@ -998,14 +892,14 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.validate.js"></script>
 	<!-- <script src="js/smoothScroll.js"></script> -->
-		<!-- Core JS file -->
-	<script src="js/photoswipe.min.js"></script> 
-	<!-- UI JS file -->
-	<script src="js/photoswipe-ui-default.min.js"></script> 
-	<script src="js/photoswipe.atcivation.js"></script> 
+	<!-- google map api and gmaps JS
 
-
-
+	============================================ -->
+<!-- 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn_cPfO3TsLL3SgwWZccAK97uTcN7kXck"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/gmap-coustom.js"></script> -->
+	<!-- main JS
+	============================================ -->
 	<script src="js/main.js"></script>
 
 </body>
