@@ -227,7 +227,6 @@ $(function() {
 		autoplaySpeed: 2000,
 		dots:false,
 		arrows:false,
-		centerMode:true,
 		responsive: [
 		    {
 		      breakpoint: 1024,
@@ -312,5 +311,25 @@ function form_validation(id_or_class){
 form_validation('.newsletter-validatation');
 form_validation('.form-validatation');
 form_validation('.form-validate');
+
+
+
+
+
+$('.story-menu ul li a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');   
+})
+
+
+
+
+
+
+
+
+
+
+
 
 });

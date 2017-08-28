@@ -150,7 +150,7 @@
 						<div class="story-content">
 							<!-- Tab panes -->
 							<div class="tab-content">
-								<div role="tabpanel" class="tab-pane active" id="History">
+								<div role="tabpanel" class="tab-pane fade in active" id="History">
 									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
 									Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
 									</p>
@@ -161,11 +161,11 @@
 									Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
 									</p>
 								</div>
-								<div role="tabpanel" class="tab-pane" id="MIssion">
+								<div role="tabpanel" class="tab-pane fade" id="MIssion">
 									<p>We are creative coders, lorem undergraduate tomato soup, but do occaecat time and vitality, such as labor and obesity. Over the years, I will come, who will nostrud exercise, efforts if the school district, and.
 									</p>
 								</div>
-								<div role="tabpanel" class="tab-pane" id="Vision">
+								<div role="tabpanel" class="tab-pane fade" id="Vision">
 									<p>Pro volumus deserunt ne. Mel ut tota fierent definiebas. At eos tale debitis mediocrem. Nec velit menandri ut, id admodum similique ius.
 									</p>
 								</div>
@@ -423,7 +423,7 @@
 			<div class="row">
 
 				<div class="portfolio-wrapper responsive-class" itemscope itemtype="http://schema.org/ImageGallery">
-					<div class="portfolio col-sm-3 pad-0 javascript">
+					<div class="portfolio col-sm-3 col-xs-12 pad-0 javascript">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port.jpg" itemprop="thumbnail" class="img-responsive" />
@@ -434,13 +434,13 @@
 									<a href="img-home-3/portfolio/h3-port22.jpg">
 										<i class="fa fa-search" aria-hidden="true"></i>
 									</a>
-									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo </a></h3>
+									<h3 class="portfolio-title"> <a href="#" class="clickable"> Lorem Ipsum Demo </a></h3>
 
 								</div>
 							</div>
 						</figure>
 					</div>
-					<div class="portfolio col-sm-6 pad-0 laravel python">
+					<div class="portfolio col-sm-6 col-xs-12 pad-0 laravel python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port22.jpg" itemprop="contentUrl" data-size="675x402">
 						        <img src="img-home-3/portfolio/h3-port22.jpg" itemprop="thumbnail" class="img-responsive" />
@@ -457,7 +457,7 @@
 
 						</figure>
 					</div>
-					<div class="portfolio col-sm-3 pad-0 python">
+					<div class="portfolio col-sm-3 col-xs-12 pad-0 python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port3.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port3.jpg" itemprop="thumbnail" class="img-responsive" />
@@ -473,7 +473,7 @@
 							</div>
 						</figure>
 					</div>
-					<div class="portfolio col-sm-3 pad-0 php">
+					<div class="portfolio col-sm-3 col-xs-12 pad-0 php">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port4.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port4.jpg" itemprop="thumbnail" class="img-responsive" />
@@ -490,7 +490,7 @@
 							</div>
 						</figure>
 					</div>
-					<div class="portfolio col-sm-3 pad-0 php python">
+					<div class="portfolio col-sm-3 col-xs-12 pad-0 php python">
 						<figure class="" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port5.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" />
@@ -665,7 +665,7 @@
 	<div class="clearfix"></div>
 
 	<!-- letest post  -->
-	<section id="letest_post" class="letest-post mrg-t-50">
+	<section id="letest_post" class="letest-post mrg-50">
 		<div class="container">
 			<div class="row">
 				<!-- section title  -->
@@ -680,7 +680,7 @@
 				<div class="col-sm-6">
 					<div class="rv3-single-post rv3">
 						<div class="post-img">
-							<img src="img-home-3/post-img/02_home-big.jpg" alt="">
+							<img src="img-home-3/post-img/02_home-post-2.jpg" alt="">
 							<a href="#" class="btn-white btn-rv">read more</a>
 							<span class="date-time"> 12 aug</span>
 						</div>

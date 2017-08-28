@@ -302,6 +302,8 @@ ul{
 .member-image a{
 	display: block;
 	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
 }
 .member-image a:before,.member-image a:after{
 	position: absolute;
@@ -311,7 +313,7 @@ ul{
 	bottom: 0 ;
 	margin: auto;
 	opacity: 0 ;
-	transform: scale(3);
+	visibility: hidden;
 	transition: 0.3s ;
 }
 .member-image a:before{
@@ -324,18 +326,22 @@ ul{
 	color: #fff ;
 	z-index: 99;
 	font-size: 40px;
+	transform: scale(1.5);
 }
 .member-image a:after{
 	content: "";
 	background: #82c400 ;
 }
+.member-image:hover a:after,
+.member-image:hover a:before{
+	transform: scale(1);
+	visibility: visible;
+}
 .member-image:hover a:before{
 	opacity: 1 ;
-	transform: scale(1);
 }
 .member-image:hover a:after{
 	opacity: 0.8 ;
-	transform: scale(1);
 }
 .rv3.team-description {
     margin-top: 25px;
@@ -418,18 +424,20 @@ ul{
 	background: rgba(130, 196, 0, 0.76);
 }
 .rv3 .portfolio .image-content i {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
 }
-.rv3 .portfolio .image-content p ,
 .rv3 .portfolio .image-content a {
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 20px;
     display: inline-block;
+    color: #fff ;
 }
-.rv3 .portfolio .image-content a{
-	color: #fff ;
+.rv3 .portfolio .image-content > a{
+
+	margin-top: 0 ;
+
 }
 
 
@@ -590,8 +598,14 @@ ul{
 .rv3.rv3-single-post .btn-rv {
     color: #707070;
 }
+.rv3.rv3-single-post:hover .btn-rv {
+        opacity: 1;
+}
 .rv3.rv3-single-post .btn-rv:hover{
 	color: #fff ;
+}
+.post-list{
+	margin: 0 ;
 }
 .post-list .rv3-single-post{
 	display: table;
@@ -599,11 +613,11 @@ ul{
 	margin-bottom: 0px;
 }
 .post-list > li + li {
-    margin-top: 53px;
+    margin-top: 20px;
 }
 .post-list .image-left {
     display: table-cell;
-    width: 163px;
+    width: 161px;
 }
 .post-list .image-left img{
 	width: 100%;
@@ -650,6 +664,9 @@ ul{
     display: inline-block;
     margin-right: 20px;
 }
+.rv3-single-event-info > p:last-child {
+    margin-bottom: 0;
+}
 /*****************************
 	014 - newsletter section
 ******************************/
@@ -657,6 +674,9 @@ ul{
 /*****************************
 	011 - clients section
 ******************************/
+.client-comment-curosel-rv3  .client-name p {
+    margin: 0;
+}
 .client-feedback .center-block{
 	float: none;
 }
