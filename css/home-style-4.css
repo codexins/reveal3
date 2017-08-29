@@ -1,0 +1,337 @@
+/*
+	Template Name: Reveal
+	Author: ThemeItems
+	Description: One Page responsive Portfolio Template
+	Version: 1.0
+
+*/
+
+/******************************
+
+INDEX:
+
+==>>> HOMEPAGE <<<==
+
+	000 - General Typography section
+	001 - header section
+	002 - featured section
+	003 - story section
+	004 - counter v2 section
+	005 - services  section
+	006 - team section
+	007 - events section
+	008 - feedback section
+	009 - cta-button-rv2 section
+	010 - portfolio section
+	011 - clients section
+	012 - location section
+	013 - letest-post section
+	014 - newsletter section
+	015 - footer section
+
+==>>> Blog Page <<<==
+	016 - blog header
+
+==>>> portfolio page  <<<==
+	17. portfolio page 
+
+==>>>rv3-single blog page  <<<==
+	18. rv3-single blog page 
+	19. sidebar  
+	
+
+
+******************************/
+/*
+	Primary Font:	
+		font-family: 'Open Sans', sans-serif;
+	Secondary Font: 
+		font-family: 'PT Sans', sans-serif;
+
+
+	theme color : #f06f10;
+	hover color :#f06f10 ;
+	text-color: #fff ;
+	title color #252525  ;
+	bg img overly color #f06f10 85%
+	image hover overly : #f06f10;
+
+
+	Flaticon icon font: Flaticon
+	Creation date: 11/08/2017 09:26
+
+
+*/
+
+/***********************************
+	000 - General Typography
+
+***********************************/
+body{
+			font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', sans-serif;
+}
+.pad-100{
+	padding: 100px 0 ;
+}
+.layout-4-bg,
+.layout-btn2{
+	font-size: 14px;
+    margin: 0 17px;
+}
+.layout-btn2:hover,
+.layout-4-bg{
+	background: #f06f10;
+	color: #fff ;
+	border: 1px solid #f06f10; 
+}
+.layout-btn2 ,
+.layout-4-bg:hover{
+	background: transparent;
+	color: #fff ;
+	border: 1px solid #fff; 
+}
+
+/*********************************
+	001 - header section
+
+/**********************************/
+header.layout-4{
+
+    background: url(../v4-img/full-img.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+
+}
+.layout-4 .slider-text h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 700;
+   	font-family: 'PT Sans', sans-serif;
+}
+.layout-4  .rv3.slider-text p {
+    margin-bottom: 25px;
+}
+/*****************************
+	002 - featured section
+******************************/
+.story-right .featured-layout-4:last-child p {
+    margin: 0;
+}
+.featured-title h4 {
+    padding-left: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+}
+.featured-title:hover h4, .featured-title:hover .featured-icon i:before{
+	color: #fff ;
+}
+/*****************************
+	003 - story section
+******************************/
+section#story_layout_4 {
+    position: relative;
+    top: -80px;
+}
+.story-left{
+	float: left;
+	width: 66.67% ;
+    padding: 70px 35px ;
+    background: #fff;
+}
+
+.layout-4-story {
+	background: #fff;
+	box-shadow: -7px 3px 30px -10px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.story-right{
+	width: 33.33%;
+	float: right;
+	background: #f06f10 ;
+	color: #252525 ;
+	padding: 75px 30px;
+}
+.featured-title{
+	display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.featured-title h4,
+.featured-title .featured-icon{
+	display: table-cell;
+	vertical-align: middle;
+}
+.featured-title h4 {
+    padding-left: 15px;
+    transition: 0.3s ;
+}
+.featured-title .featured-icon {
+    margin: 0;
+    width: 45px;
+    text-align: left;
+}
+.featured-title .featured-icon i:before {
+    font-size: 40px;
+    color: #252525
+}
+
+.story-right .featured-layout-4 + .featured-layout-4 {
+    padding-top: 35px;
+    margin-top: 35px;
+    border-top: 1px solid #dfdfdf;
+}
+
+.layout-4-title.rv2-title {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 45px;
+}
+.layout-4-title.rv2-title:before, .layout-4-title.rv2-title:after{
+	content: none;
+}
+.story-left p {
+    line-height: 28px;
+}
+.story-left blockquote {
+    font-style: italic;
+    border: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f06f10;
+}
+.signature-image {
+    margin-top: 40px;
+}
+section.counter-layout-4 {
+    margin-top: 5px;
+}
+/*****************************
+	004 - counter v2 section
+******************************/
+.item-layout-4 {
+    display: table;
+}
+.count-right,
+.item-layout-4 .rv2-icon-1 {
+    display: table-cell;
+}
+.count-right {
+   padding-left: 30px;
+   vertical-align: middle;
+}
+h2.counter {
+    font-size: 45px;
+    font-weight: 600;
+    color: #252525;
+}
+.item-layout-4 .rv2-icon-1 {
+    vertical-align: middle;
+}
+.count-right h3 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 18px;
+}
+.item-layout-4 .rv2-icon-1 i:before{
+	font-size: inherit;
+	line-height: inherit;
+}
+.item-layout-4  .rv2-icon-1 i {
+    display: block;
+    font-size: 70px;
+    line-height: 70px;
+    color: #f06f10;
+}
+/*****************************
+	005 - services  section
+******************************/
+.services-carosel .service-icon{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto ;
+}
+.services-carosel .service-item {
+    position: relative;
+    padding: 25px;
+    margin-bottom: 0;
+    background: #fff;
+    border: none;
+}
+.services-carosel .service-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0px;
+    line-height: 70px;
+    z-index: 9;
+}
+.services-carosel .service-item:hover{
+	border: none;
+	background: #fff ;
+	box-shadow: -5px 15px 60px -22px rgba(0,0,0,0.5);
+}
+
+.services-carosel .service-icon:before {
+    content: "";
+    position: absolute;
+    background: transparent;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: .7;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    transform: scale(1.2);
+    z-index: -1;
+}
+.content-wrape {
+    position: relative;
+    top: -35px;
+}
+.services-carosel .service-content {
+    margin-top: 10px;
+}
+section.services.layout-4{
+	background: #f2f2f2 ;
+}
+/*****************************
+	006 - team section
+******************************/
+/*****************************
+	010 - portfolio section
+******************************/
+
+/*****************************
+	009 - cta-button-rv2 section
+******************************/
+/*****************************
+	007 - events section
+******************************/
+
+/*****************************
+	008 - feedback section
+******************************/
+/*****************************
+	013 - letest-post section
+******************************/
+/*****************************
+	014 - newsletter section
+******************************/
+
+/*****************************
+	011 - clients section
+******************************/
+
+/*****************************
+	015 - footer section
+******************************/

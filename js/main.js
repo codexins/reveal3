@@ -270,66 +270,96 @@ $(function() {
 
    
 
-function form_validation(id_or_class){
- 	$(id_or_class).validate({
+	function form_validation(id_or_class){
+	 	$(id_or_class).validate({
 
-        rules: {
-            name: {
-                required: true,
-                minlength: 2
-            },
+	        rules: {
+	            name: {
+	                required: true,
+	                minlength: 2
+	            },
 
-            email: {
-                required: true,
-                email: true
-            },
+	            email: {
+	                required: true,
+	                email: true
+	            },
 
-            subject: {
-                required: true,
-                minlength: 5
-            },
-            message:{
-            	required: true,
-            	minlength: 5
-            }
-        },
+	            subject: {
+	                required: true,
+	                minlength: 5
+	            },
+	            message:{
+	            	required: true,
+	            	minlength: 5
+	            }
+	        },
 
-        messages: {
-            author: "Please provide a valid name",
-            email: "Please provide a valid email",
-            comment: "Comments needs to be at least 5 characters"
-        },
+	        messages: {
+	            author: "Please provide a valid name",
+	            email: "Please provide a valid email",
+	            comment: "Comments needs to be at least 5 characters"
+	        },
 
-        errorElement: "div",
-        errorPlacement: function(error, element) {
-            element.after(error);
-        }
+	        errorElement: "div",
+	        errorPlacement: function(error, element) {
+	            element.after(error);
+	        }
 
-    });	
-}
+	    });	
+	}
 
-form_validation('.newsletter-validatation');
-form_validation('.form-validatation');
-form_validation('.form-validate');
-
-
+	form_validation('.newsletter-validatation');
+	form_validation('.form-validatation');
+	form_validation('.form-validate');
 
 
 
-$('.story-menu ul li a').click(function (e) {
-	e.preventDefault();
-	$(this).tab('show');   
-})
 
 
-$('.carosel-widget').slick({
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	autoplay: true,
-	dots:false,
-	arrows:true,
-	autoplaySpeed: 2000,
-});
+	$('.story-menu ul li a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');   
+	})
+
+
+	$('.carosel-widget').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		dots:false,
+		arrows:true,
+		autoplaySpeed: 2000,
+	});
+
+
+
+	// $('.services-carosel').slick({
+	// 	slidesToShow: 3,
+	// 	slidesToScroll: 1,
+	// 	autoplay: true,
+	// 	dots:false,
+	// 	arrows:true,
+	// 	autoplaySpeed: 2000,
+	// });
+
+
+
+
+
+ 	$('.services-carosel').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: false,
+		autoplaySpeed: 2000,
+		dots:false,
+		arrows:true,
+		prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+	  	nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
+
+	});
+
+
+
 
 
 
