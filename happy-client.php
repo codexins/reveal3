@@ -93,7 +93,7 @@
 					</div>
 					<div class="client-widget-info">
 						<div class="pic"><img src="img-home-3/Untitled-1.jpg" alt=""></div>
-						<h3>Jon Deo</h3>,
+						<h3>Jon Deo ,</h3>
 						<p>company inc</p>
 					</div>
 				</div>
