@@ -186,28 +186,28 @@
 				<div class="col-sm-3 ">
 					<div class="counter-item rv3" >
 						<span class="counter">1987</span>
-						<h2 class=" rv3 rv2-title title-top-style"></h2>
+						<h2 class=" rv3 rv2-title title-top-style">title bar</h2>
 						<h3 class="title-3">Web Apps Projects</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
 					<div class="counter-item rv3" >
 						<span class="counter">5490</span><span>+</span>
-						<h2 class=" rv3 rv2-title title-top-style"></h2>
+						<h2 class=" rv3 rv2-title title-top-style"> title bar</h2>
 						<h3 class="title-3">Happy Clients</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
 					<div class="counter-item rv3" >
 						<span class="counter">100</span><span>%</span>
-						<h2 class=" rv3 rv2-title title-top-style"></h2>
+						<h2 class=" rv3 rv2-title title-top-style"> title bar</h2>
 						<h3 class="title-3">Award Winner</h3>
 					</div>
 				</div>
 				<div class="col-sm-3 ">
 					<div class="counter-item rv3" >
 						<span class="counter">1000</span><span>+</span>
-						<h2 class=" rv3 rv2-title title-top-style"></h2>
+						<h2 class=" rv3 rv2-title title-top-style"> title bar </h2>
 						<h3 class="title-3">Cup of Coffee</h3>
 					</div>
 				</div>
@@ -317,7 +317,7 @@
 					<div class="rv3-single-team">
 						<div class="member-image">
 							<a href="#">
-								<img src="img-home-3/team/team_1.png" alt="Team" class="img-responsive" />
+								<img src="img-home-3/team/team_1.png" alt="Team" class="img-responsive"  />
 							</a>
 						</div>
 					</div>
@@ -336,7 +336,7 @@
 					<div class="rv3-single-team">
 						<div class="member-image">
 							<a href="#">
-								<img src="img-home-3/team/team_2.png" alt="Team" class="img-responsive" />
+								<img src="img-home-3/team/team_2.png" alt="Team" class="img-responsive"  />
 							</a>
 						</div>
 					</div>
@@ -426,7 +426,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 javascript">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port.jpg" itemprop="thumbnail" class="img-responsive" />
+						        <img src="img-home-3/portfolio/h3-port.jpg" itemprop="thumbnail" class="img-responsive" alt="" />
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -443,7 +443,7 @@
 					<div class="portfolio col-sm-6 col-xs-12 pad-0 laravel python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port22.jpg" itemprop="contentUrl" data-size="675x402">
-						        <img src="img-home-3/portfolio/h3-port22.jpg" itemprop="thumbnail" class="img-responsive" />
+						        <img src="img-home-3/portfolio/h3-port22.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -460,7 +460,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port3.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port3.jpg" itemprop="thumbnail" class="img-responsive" />
+						        <img src="img-home-3/portfolio/h3-port3.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -476,7 +476,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 php">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port4.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port4.jpg" itemprop="thumbnail" class="img-responsive" />
+						        <img src="img-home-3/portfolio/h3-port4.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -493,7 +493,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 php python">
 						<figure class="" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port5.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" />
+						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">

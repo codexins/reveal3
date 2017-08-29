@@ -256,7 +256,10 @@ ul{
 .story-menu.rv3 ul li a {
     padding: 5px 20px;
 }
-
+.counter-item h2.rv3.rv2-title.title-top-style {
+    text-indent: -99999999999999999px;
+    line-height: 0;
+}
 /*****************************
 	005 - services  section
 ******************************/
