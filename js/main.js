@@ -317,12 +317,19 @@ form_validation('.form-validate');
 
 
 $('.story-menu ul li a').click(function (e) {
-  e.preventDefault();
-  $(this).tab('show');   
+	e.preventDefault();
+	$(this).tab('show');   
 })
 
 
-
+$('.carosel-widget').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	autoplay: true,
+	dots:false,
+	arrows:true,
+	autoplaySpeed: 2000,
+});
 
 
 
