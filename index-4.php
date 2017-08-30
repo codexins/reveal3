@@ -195,7 +195,7 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="services-carosel">
+				<div class="services-carosel arrow-middle">
 					<div class="col-sm-4">
 						<div class="service-item rv3 pad-50">
 							<img src="v4-img/04_home-services.jpg" alt="">
@@ -274,9 +274,561 @@
 		</div>
 	</section>
 
-
-
 	<div class="clearfix"></div>
+
+	<!-- team section -->
+	<section id="team" class="layout-4 team mrg-50 ">
+		<div class="container">
+			<div class="row">
+				<!-- section title  -->
+				<div class="col-sm-12">
+					<div class="rv2-title  center-block">
+						<h2 class="primary-title rv2">EXPERT  TEAM</h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
+			</div>
+			<div class="row">	
+				<div class="col-sm-3 team-wrap">
+					
+					<div class="rv2-single-team">
+						<img src="images/team/matthew.jpg" alt="Team" class="img-responsive" />
+						<div class="rv2-single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="team-description text-center">
+						<h2>Alfred Aaron</h2>
+						<p>Ruby Expert</p>
+					</div>
+					
+				</div>
+
+				<div class="col-sm-3 team-wrap">
+					<div class="rv2-single-team">
+						<img src="images/team/emma.jpg" alt="Team" class="img-responsive" />
+						<div class="rv2-single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="team-description text-center">
+						<h2>Leanne Emma</h2>
+						<p>Python Specialist</p>
+					</div>
+				</div>
+
+				<div class="col-sm-3 team-wrap">
+					<div class="rv2-single-team">
+						<img src="images/team/michelle.jpg" alt="Team" class="img-responsive" />
+						<div class="rv2-single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="team-description text-center">
+						<h2>Michelle Kylee</h2>
+						<p>PHP Developer</p>
+					</div>
+				</div>
+
+				<div class="col-sm-3 team-wrap">
+					<div class="rv2-single-team">
+						<img src="images/team/christopher.jpg" alt="Team" class="img-responsive" />
+						<div class="rv2-single-team-wrapper">
+							<div class="team-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="team-description text-center">
+						<h2>Ceasar Morgan</h2>
+						<p>Java Expert</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section> <!-- end of team section -->
+	<div class="clearfix"></div>
+	<!-- client fedback  -->
+	<section id="feedback" class="mrg-t-50 layout-4 client-feedback">
+		<div class="container">
+			<div class="row">
+				<!-- section title  -->
+				<div class="col-sm-12">
+					<div class="rv2-title after-white center-block">
+						<h2 class="primary-title rv2">Client Feedback </h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
+				<div class="clearfix"></div>
+				<div class="client-comment-curosel">
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<h3 class="title-3">Mark Twain</h3>
+									<p>CEO & founder</p>
+								</div>
+								<div class="icon-inline">
+									<i class="flaticon-right-quotes-symbol"></i>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<h3 class="title-3">Mark Twain</h3>
+									<p>CEO & founder</p>
+								</div>
+								<div class="icon-inline">
+									<i class="flaticon-right-quotes-symbol"></i>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<h3 class="title-3">Mark Twain</h3>
+									<p>CEO & founder</p>
+								</div>
+								<div class="icon-inline">
+									<i class="flaticon-right-quotes-symbol"></i>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-sm-6">
+						<div class="client ">
+							<div class="client-info">
+								<div class="client-img"><img src="rev-2-img/Client-left.png" alt="">
+								</div>
+								<div class="client-name">
+									<h3 class="title-3">Mark Twain</h3>
+									<p>CEO & founder</p>
+								</div>
+								<div class="icon-inline">
+									<i class="flaticon-right-quotes-symbol"></i>
+								</div>
+							</div>
+							<div class="client-comment">
+								<p>Congue munere corrumpit quo an, voluptua salutatus vel  ore eligendi pri. Harum consequuntur an sea, voluptua eleifend consetetur ex vix, ex pro feugiat effiendi Usu id ignota indoctum scrip.</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+	<section class="cta-button-rv2 mrg-b-50 layout-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="cta-content">
+						<div class="cta-left">
+							<h4 class="cta-title">It Does More. It Costs Less. It’s that Simple.</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore atque voluptates quos rerum quidem error eveniet laudantium aliquam perferendis repellendus.</p>
+						</div>
+						<div class="cta-button">
+							<a href="#" class="btn-rv btn-white ">Know more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clearfix"></div>
+	<!-- event section  -->
+	<section id="layout_4" class="Events mrg-50 layout-4 ">
+		<div class="container">
+			<div class="row">
+				<!-- section title  -->
+				<!-- section title  -->
+				<div class="col-sm-12">
+					<div class="rv2-title center-block">
+						<h2 class="primary-title rv2">UPCOMING Events</h2>
+						<h4 class="secondary-title rv2">For the next generation of big businesses.</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
+				<div class="cleasrfix"></div>
+				<div class="col-sm-4">
+					<div class="rv2-single-event mrg-b-50">
+						<div class="event-img">
+							<img src="rev-2-img/Event-left.jpg" alt="">
+
+							<ul class="upcomming-info">
+								<li>
+									<i class="fa fa-user" aria-hidden="true"></i>speaker
+								</li>
+								<li class="pull-right">
+									<i class="fa fa-calendar" aria-hidden="true"></i>8-nov-2017
+								</li>
+							</ul>
+
+						</div>
+						<div class="event-info">
+							<h3 class="title-3">Let’s Make Things Better.</h3>
+							<ul>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i>
+								 	 8:00 AM - 5:00 PM  
+								 </li>
+								<li>
+									<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
+								 </li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+						</div>
+						<div class="event-readmore">
+							<a href="#">Read More </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="rv2-single-event mrg-b-50">
+						<div class="event-img">
+							<img src="rev-2-img/Event-left.jpg" alt="">
+
+							<ul class="upcomming-info">
+								<li>
+									<i class="fa fa-user" aria-hidden="true"></i>speaker
+								</li>
+								<li class="pull-right">
+									<i class="fa fa-calendar" aria-hidden="true"></i>8-nov-2017
+								</li>
+							</ul>
+
+						</div>
+						<div class="event-info">
+							<h3 class="title-3">Let’s Make Things Better.</h3>
+							<ul>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i>
+								 	 8:00 AM - 5:00 PM  
+								 </li>
+								<li>
+									<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
+								 </li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+						</div>
+						<div class="event-readmore">
+							<a href="#">Read More </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="rv2-single-event mrg-b-50">
+						<div class="event-img">
+							<img src="rev-2-img/Event-left.jpg" alt="">
+
+							<ul class="upcomming-info">
+								<li>
+									<i class="fa fa-user" aria-hidden="true"></i>speaker
+								</li>
+								<li class="pull-right">
+									<i class="fa fa-calendar" aria-hidden="true"></i>8-nov-2017
+								</li>
+							</ul>
+
+						</div>
+						<div class="event-info">
+							<h3 class="title-3">Let’s Make Things Better.</h3>
+							<ul>
+								<li><i class="fa fa-clock-o" aria-hidden="true"></i>
+								 	 8:00 AM - 5:00 PM  
+								 </li>
+								<li>
+									<i class="fa fa-map-marker" aria-hidden="true"></i>  LONDON, UK 
+								 </li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+						</div>
+						<div class="event-readmore">
+							<a href="#">Read More </a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="all-events"><a href="#">View all Events</a></div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+	<!-- portfolio section  -->
+	<section id="portfolio_rv3" class="portfolios layout-4 mrg-50">
+		<div class="container">
+			<div class="row">
+				<div class="portfolio_rv2-button">
+					<!-- section title  -->
+					<div class="row-middle col-sm-3">
+						<div class=" rv3 rv2-title mrg-0">
+							<h2 class="primary-title mrg-0 rv2">OUR WORK</h2>
+						</div>
+					</div>  <!-- end of col-sm-12 -->
+					<div class="row-middle col-sm-8">
+						<div class="portfolio-filter rv2 rv3 pull-right">
+							<ul class="list-inline">
+								<li class="active" data-filter="*">All</li>
+								<li data-filter=".python">Python</li>
+								<li data-filter=".javascript">Javascript</li>
+								<li data-filter=".laravel">Laravel</li>
+								<li data-filter=".php">PHP</li>
+								<li class="view-all"> view all </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+		<div class="container">
+			<div class="row">
+
+				<div class="portfolio-wrapper responsive-class" itemscope itemtype="http://schema.org/ImageGallery">
+					<div class="portfolio col-sm-4 col-xs-12 javascript">
+						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+						    <a href="v4-img/04_home--p2.jpg" itemprop="contentUrl" data-size="370x330">
+						        <img src="v4-img/04_home--p2.jpg" itemprop="thumbnail" class="img-responsive" alt="" />
+						    </a>  
+						    <figcaption itemprop="caption description"></figcaption>
+							<div class="image-mask">
+								<div class="image-content">
+									<a href="img-home-3/portfolio/h3-port22.jpg">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</a>
+									<h3 class="portfolio-title"> <a href="#" class="clickable"> Lorem Ipsum Demo </a></h3>
+
+								</div>
+							</div>
+						</figure>
+					</div>
+					<div class="portfolio col-sm-4 col-xs-12 laravel python">
+						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+						    <a href="v4-img/04_home-4.jpg" itemprop="contentUrl" data-size="370x330">
+						        <img src="v4-img/04_home-4.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						    </a>  
+						    <figcaption itemprop="caption description"></figcaption>
+							<div class="image-mask">
+								<div class="image-content">
+									<a href="img-home-3/portfolio/h3-port22.jpg">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</a>
+									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo </a></h3>
+								</div>
+							</div>
+
+						</figure>
+					</div>
+					<div class="portfolio col-sm-4 col-xs-12 python">
+						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+						    <a href="v4-img/p3.jpg" itemprop="contentUrl" data-size="370x330">
+						        <img src="v4-img/p3.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						    </a>  
+						    <figcaption itemprop="caption description"></figcaption>
+							<div class="image-mask">
+								<div class="image-content">
+									<a href="img-home-3/portfolio/h3-port22.jpg">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</a>
+									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo</a></h3>
+								</div>
+							</div>
+						</figure>
+					</div>
+					<div class="portfolio col-sm-4 col-xs-12 php">
+						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+						    <a href="v4-img/p4.jpg" itemprop="contentUrl" data-size="370x330">
+						        <img src="v4-img/p4.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						    </a>  
+						    <figcaption itemprop="caption description"></figcaption>
+							<div class="image-mask">
+								<div class="image-content">
+									<a href="img-home-3/portfolio/h3-port22.jpg">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</a>
+									<h3 class="portfolio-title"> <a href="" class="clickable"> Lorem Ipsum Demo </a></h3>
+				
+								</div>
+							</div>
+						</figure>
+					</div>
+					<div class="portfolio col-sm-8 col-xs-12 php python">
+						<figure class="" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
+						    <a href="v4-img/p5.jpg" itemprop="contentUrl" data-size="770x330">
+						        <img src="v4-img/p5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						    </a>  
+						    <figcaption itemprop="caption description"></figcaption>
+							<div class="image-mask">
+								<div class="image-content">
+									<a href="img-home-3/portfolio/h3-port22.jpg">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</a>
+									<h3 class="portfolio-title"> <a href="#" class="clickable"> Lorem Ipsum Demo </a></h3>
+									
+								</div>
+							</div>
+						</figure>
+					</div>
+	            </div><!-- end of portfolio-wrapper -->
+
+			</div>
+		</div>
+	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+	<!-- letest post  -->
+	<section id="letest_post" class="letest-post layout-4  mrg-50">
+		<div class="container">
+			<div class="row">
+				<!-- section title  -->
+				<div class="col-sm-12">
+					<div class="  rv2-title center-block">
+						<h2 class="primary-title rv2">LATEST POST</h2>
+						<h4 class="secondary-title rv2">This is the Power of the Network</h4>
+					</div>
+				</div>  <!-- end of col-sm-12 -->
+			</div><!-- end of row -->
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="rv3-single-post ">
+						<div class="post-img">
+							<img src="v4-img/post.jpg" alt="">
+							<span class="date-time"> <span>12 </span> aug</span>
+						</div>
+						<div class="rv3-single-event-info">
+							<div class="post-info">
+								<h3 class="title-3">Let’s Make Things Better.</h3>
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+									<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+									<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+								</ul>
+								
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+							<a href="#" class="btn-white btn-rv">read more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="rv3-single-post ">
+						<div class="post-img">
+							<img src="v4-img/post.jpg" alt="">
+							<span class="date-time"> <span>12 </span> aug</span>
+						</div>
+						<div class="rv3-single-event-info">
+							<div class="post-info">
+								<h3 class="title-3">Let’s Make Things Better.</h3>
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+									<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+									<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+								</ul>
+								
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+							<a href="#" class="btn-white btn-rv">read more</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="rv3-single-post ">
+						<div class="post-img">
+							<img src="v4-img/post.jpg" alt="">
+							<span class="date-time"> <span>12 </span> aug</span>
+						</div>
+						<div class="rv3-single-event-info">
+							<div class="post-info">
+								<h3 class="title-3">Let’s Make Things Better.</h3>
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i> <a href=""> username </a> </li>
+									<li><i class="fa fa-paper-plane" aria-hidden="true"></i> <a href=""> 12</a> </li>
+									<li><i class="fa fa-heart" aria-hidden="true"></i>  <a href=""> like</a></li>
+								</ul>
+								
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste praesentium pariatur vero consequuntur impedit soluta accusamus facilis voluptatibus at, laudantium, vel officiis rem nobis accusantium fuga labore, veritatis neque.</p>
+							<a href="#" class="btn-white btn-rv">read more</a>
+						</div>
+					</div>
+				</div>
+
+				
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</section> <!-- end of section -->
+	<div class="clearfix"></div>
+	<!-- client carosel  -->
+	<div id="clients-rv2" class="clients mrg-50">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="client-carousel-rv2" class="owl-carousel">
+						<div class="item">
+							<a href=""><img src="rev-2-img/Company-logo-1.png" alt=""></a>
+						</div>
+						<div class="item">
+							<a href=""><img src="rev-2-img/Company-logo-2.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="rev-2-img/Company-logo-3.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="rev-2-img/Company-logo-4.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="rev-2-img/Company-logo-5.png" alt=""></a>
+						</div>
+
+						<div class="item">
+							<a href=""><img src="rev-2-img/Company-logo-3.png" alt=""></a>
+						</div>
+					</div>				
+				</div> <!-- end of col -->
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of clients -->
+	<div class="clearfix"></div>
+
 	<!-- footer section  -->
 	<footer class="footer mrg-t-50">
 		<div class="container">

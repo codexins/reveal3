@@ -801,6 +801,9 @@ section#counter_rv2:before {
 	/*overflow: hidden;*/
 	width: 100% ;
 }
+.client-name p {
+    margin: 0;
+}
 .client-comment-curosel .col-sm-6{
 	width: 100%;
 }

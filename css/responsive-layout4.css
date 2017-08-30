@@ -1,0 +1,114 @@
+@media only screen and (min-width: 1200px) {
+	
+
+} /*end of (min-width: 1200px)*/
+
+@media only screen and (max-width: 1199px) {
+	.item-layout-4 h2.counter {
+	    font-size: 30px;
+	}
+	.item-layout-4 .rv2-icon-1 i {
+	    font-size: 50px;
+	}
+} /*end of (min-width: 992px) and (max-width: 1199px)*/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+} /*end of (min-width: 992px) and (max-width: 1199px)*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.layout-4 .slider-text h1 {
+	    font-size: 30px;
+	}
+	.layout-4 a.btn-btn-primary{
+	    padding: 5px 15px;
+	}
+	.featured-layout-4 .featured-title h4 {
+	    padding-left: 5px;
+	}
+	.story-left {
+	    padding: 30px 30px;
+	}
+	.layout-4-title.rv2-title {
+	    margin-bottom: 20px;
+	}
+	.signature-image {
+	    margin-top: 20px;
+	}
+	.item-layout-4 .rv2-icon-1 i {
+	    font-size: 50px;
+	}
+	.count-right {
+	    padding-left: 15px;
+	}
+
+} /*end of (min-width: 768px) and (max-width: 991px)*/
+
+
+@media only screen and (max-width: 767px) {
+	.item-layout-4 {
+	    display: table;
+	    margin: auto;
+	    margin-bottom: 40px;
+	}
+	.services-carosel.arrow-middle .slick-next {
+	    right: 0px;
+	}
+	.services-carosel.arrow-middle .slick-prev {
+		left: 0;
+	}
+	.story-right,
+	.story-left{
+		width: 100%;
+		float: none;
+		padding: 25px;
+	}
+
+	.layout-4 .slider-text h1 {
+	    font-size: 30px;
+	}
+	section#story_layout_4 {
+	    top: 0;
+
+	}
+	.layout-4-story{
+		margin: 50px 0 ;
+	}
+	.slider-text .layout-btn2 {
+	    margin-top: 15px;
+	}
+	section.counter-layout-4 {
+	    margin-top: 50px;
+	}
+	section.counter-layout-4 {
+	    margin-top: 50px;
+	    margin-bottom: 10px;
+	}
+	.layout-4 .team-wrap {
+	    width: 50%;
+	    float: left;
+	    margin-bottom: 30px;
+	}
+
+}  /* end of (max-width: 767px) */
+
+
+@media only screen and (max-width: 667px) {
+	
+
+} /*end of (max-width: 667px)*/
+
+
+@media only screen and (max-width: 479px) {
+.layout-4 .team-wrap {
+	width: 100%;
+    margin-bottom: 30px;
+}
+
+} /*end of (max-width: 479px)*/
+
+
+
+
