@@ -216,7 +216,17 @@ $(function() {
 		autoplay: false,
 		autoplaySpeed: 2000,
 		dots:true,
-		arrows:false
+		arrows:false,
+		responsive: [
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    },
+		  ]
+
 	});
 
 
@@ -352,7 +362,7 @@ $(function() {
 		        slidesToShow: 3,
 		        slidesToScroll: 1,
 		        infinite: true,
-		        dots: true
+		        // dots: true
 		      }
 		    },
 		    {

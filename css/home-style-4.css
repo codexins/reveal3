@@ -208,7 +208,7 @@ section#story_layout_4 {
     margin-top: 40px;
 }
 section.counter-layout-4 {
-    margin-top: 5px;
+    margin-top: 15px;
 }
 /*****************************
 	004 - counter v2 section
@@ -260,6 +260,9 @@ h2.counter {
     padding: 25px;
     background: #fff;
     border: none;
+}
+.service-item img {
+    width: 100%;
 }
 .services-carosel .service-icon {
     width: 80px;
