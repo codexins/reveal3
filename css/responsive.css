@@ -689,7 +689,9 @@ ul.upcomming-info {
 .layout-4 .client {
     padding: 30px 30px;
 }
-
+.layout-4  .rv3-single-post {
+    margin-bottom: 30px;
+}
 
 }  /* end of (max-width: 767px) */
 
