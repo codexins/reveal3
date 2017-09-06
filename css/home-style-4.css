@@ -313,13 +313,29 @@ section.services.layout-4 {
     padding-bottom: 70px;
 }
 .services-carosel.arrow-middle .slick-next {
-    right: -40px;
+    right: 0px;
     color: #707070;
 }
 .arrow-middle .slick-prev {
-    left: -40px;
+    left: 0px;
     color: #707070;
 }
+.services-carosel.arrow-middle:hover .slick-arrow {
+    visibility: visible;
+    opacity: 1;
+}
+.services-carosel.arrow-middle .slick-arrow {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.services-carosel.arrow-middle:hover .slick-next {
+    right: -40px;
+}
+.services-carosel.arrow-middle:hover .slick-prev {
+    left: -40px;
+}
+
 /*****************************
 	006 - team section
 ******************************/
