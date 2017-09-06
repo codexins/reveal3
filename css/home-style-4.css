@@ -308,6 +308,9 @@ h2.counter {
 .service-icon img {
     display: initial;
 }
+.layout-4 .service-item img {
+    width: initial;
+}
 section.services.layout-4 {
     background: #f2f2f2;
     padding-bottom: 70px;
