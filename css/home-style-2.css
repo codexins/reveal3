@@ -290,13 +290,13 @@ Creation date: 11/08/2017 09:26
 	margin-bottom: 42px;
     text-align: center;
 }
-.rv2-icon-1 i{
-	display: block;
+.rv2-icon-1 i {
+    display: block;
+    line-height: 100%;
+    font-size: 65px;
 }
 .rv2-icon-1 i:before{
 	margin: 0;
-    line-height: 40px;
-    font-size: 65px;
     transition: 0.3s  ;
 }
 .white-bg{
