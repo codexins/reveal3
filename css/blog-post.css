@@ -1,0 +1,84 @@
+.img-wrapper::after,
+.img-wrapper::before,
+.img-thumb a::before, .img-thumb a::after{
+	content: none;
+}
+.cx-blog-4 {
+    position: relative;
+    margin-bottom: 30px;
+}
+.cx-blog-4 .blog-content a {
+    border: 0 solid #aaa;
+    padding: 0;
+    margin: 0 ;
+    color: #fff ;
+}
+.cx-blog-4 .blog-title {
+    margin: 0;
+    margin-top: 15px;
+}
+.cx-blog-4 .blog-content {
+    padding-bottom: 0;
+    border-bottom: 0px solid #ddd;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1 ;
+}
+.cx-blog-4 .blog-content > a:hover {
+    background: #82c400;
+    color: #fff;
+}
+.cx-blog-4 .blog-title > a:hover {
+    background: transparent;
+}
+
+.cx-blog-4  .blog-info span{
+	color: #fff ;
+	display: block;
+}
+.cx-blog-4  .blog-info span i{
+	color: #fff ;
+	margin-right: 5px;
+}
+.cx-blog-4:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(30,30,30,0.8)) repeat-x;
+    /*z-index: 1;*/
+}
+.cx-blog-4 .blog-content .read-more {
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.38);
+}
+
+.cx-blog-4 .blog-info span,
+.cx-blog-4 .blog-info a{
+    background: transparent;
+    color: rgba(255,255,255,0.5);
+}
+
+.cx-blog-4 .blog-info a:hover{
+	color:#fff;
+}
+.cx-blog-4 .img-thumb img {
+	transition: 0.3s ;
+}
+.cx-blog-4:hover .img-thumb img {
+    transform: scale(1.1);
+}
+.cx-blog-4  p.blog-title a {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.cx-blog-4 .blog-info {
+    padding: 0;
+    padding-top: 10px;
+}

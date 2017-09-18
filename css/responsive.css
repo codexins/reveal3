@@ -283,6 +283,10 @@ ul.upcomming-info {
 
 @media only screen and (max-width: 767px) {
 
+
+
+
+
 	header {
 		min-height: 300px;
 	}
@@ -692,6 +696,26 @@ ul.upcomming-info {
 .layout-4  .rv3-single-post {
     margin-bottom: 30px;
 }
+
+.cx-blog-4 .img-thumb ,
+.cx-blog-4 .img-wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.cx-blog-4 .blog-content {
+    left: 10px;
+    right: 10px;
+    top: 30%;
+    transform: translateY(-14%);
+}
+
+
+
+
+
+
+
 
 }  /* end of (max-width: 767px) */
 
