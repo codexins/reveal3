@@ -789,8 +789,12 @@ ul.upcomming-info {
 	    display: block;
 	    margin-top: 30px;
 	}
-/* end home version 2 */
 
+
+/* end home version 2 */
+	.cx-blog-4  .blog-info span{
+		display: block;
+	}
 } /*end of (max-width: 667px)*/
 
 
