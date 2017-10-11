@@ -1677,3 +1677,6 @@ a.more:hover {
   padding: 5px;
   text-align: center;
 }
+.portfolio a {
+    display: block;
+}

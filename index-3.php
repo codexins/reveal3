@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -426,7 +427,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 javascript">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port.jpg" itemprop="thumbnail" class="img-responsive" alt="" />
+						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt="" />
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -443,7 +444,7 @@
 					<div class="portfolio col-sm-6 col-xs-12 pad-0 laravel python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port22.jpg" itemprop="contentUrl" data-size="675x402">
-						        <img src="img-home-3/portfolio/h3-port22.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -460,7 +461,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port3.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port3.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">
@@ -476,7 +477,7 @@
 					<div class="portfolio col-sm-3 col-xs-12 pad-0 php">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port4.jpg" itemprop="contentUrl" data-size="545x325">
-						        <img src="img-home-3/portfolio/h3-port4.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
+						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
 						    </a>  
 						    <figcaption itemprop="caption description"></figcaption>
 							<div class="image-mask">

@@ -48,38 +48,64 @@ $(function() {
 	Isotope Js for Portfolio Section
     ---------------------------------------------------------------- */
 
-	// cache container
-	var $isocontainer = $('.portfolio-wrapper');
+	// // cache container
+	// var $isocontainer = $('.portfolio-wrapper');
 
-	// initialize isotope
+	// // initialize isotope
 
-	$isocontainer.imagesLoaded( function(){
-		$isocontainer.isotope({
-			filter: "*",
-			animationOptions: {
-		            duration: 750,
-		            easing: 'linear',
-		            queue: false
-		        }
-		});
-	});
+	// $isocontainer.imagesLoaded( function(){
+	// 	$isocontainer.isotope({
+	// 		filter: "*",
+	// 		animationOptions: {
+	// 	            duration: 750,
+	// 	            easing: 'linear',
+	// 	            queue: false
+	// 	        }
+	// 	});
+	// });
 
-	$(".portfolio-filter ul li").click(function(){
-		$(".portfolio-filter ul li").removeClass("active");
-		$(this).addClass("active");
+	// $(".portfolio-filter ul li").click(function(){
+	// 	$(".portfolio-filter ul li").removeClass("active");
+	// 	$(this).addClass("active");
 
-		var selector = $(this).attr('data-filter');
-		$isocontainer.isotope({
-			filter: selector,
-			animationOptions: {
-				duration: 750,
-				easing: 'linear',
-				queue: false,
-			},
-			isResizeBound: true
-		});
-		return false;
-	});  //isotope finished
+	// 	var selector = $(this).attr('data-filter');
+	// 	$isocontainer.isotope({
+	// 		filter: selector,
+	// 		animationOptions: {
+	// 			duration: 750,
+	// 			easing: 'linear',
+	// 			queue: false,
+	// 		},
+	// 		isResizeBound: true
+	// 	});
+	// 	return false;
+	// });  //isotope finished
+
+
+
+
+
+          var $gridportfolio =  $('.portfolio-wrapper').isotope({
+            itemSelector: '.portfolio',
+            percentPosition: true,
+            layoutMode: 'packery' ,
+            layoutMode: 'masonry',
+             masonry: {
+               columnWidth: '.col-sm-3',
+            //      gutter: 15
+            }
+            
+          });
+
+          // filter items on button click
+          $('.list-inline').on( 'click', 'li', function() {
+            var filterValue = $(this).attr('data-filter');
+            $gridportfolio.isotope({ filter: filterValue });
+          });
+
+
+
+
 
 	/*--------------------------------------------------------------
 	Activating Magnific Pop Up
