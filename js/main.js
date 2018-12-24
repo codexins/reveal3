@@ -88,10 +88,10 @@ $(function() {
           var $gridportfolio =  $('.portfolio-wrapper').isotope({
             itemSelector: '.portfolio',
             percentPosition: true,
-            layoutMode: 'packery' ,
+            //layoutMode: 'packery' ,
             layoutMode: 'masonry',
              masonry: {
-               columnWidth: '.col-sm-3',
+               //columnWidth: '.col-sm-3',
             //      gutter: 15
             }
             

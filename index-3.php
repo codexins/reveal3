@@ -420,11 +420,11 @@
 				</div>
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
-		<div class="container-fluid">
-			<div class="row">
+		<div class="containers">
+<!-- 			<div class="row"> -->
 
 				<div class="portfolio-wrapper responsive-class" itemscope itemtype="http://schema.org/ImageGallery">
-					<div class="portfolio col-sm-3 col-xs-12 pad-0 javascript">
+					<div class="portfolio quarter pad-0 javascript">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt="" />
@@ -441,7 +441,7 @@
 							</div>
 						</figure>
 					</div>
-					<div class="portfolio col-sm-6 col-xs-12 pad-0 laravel python">
+					<div class="portfolio fifty pad-0 laravel python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port22.jpg" itemprop="contentUrl" data-size="675x402">
 						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
@@ -458,7 +458,7 @@
 
 						</figure>
 					</div>
-					<div class="portfolio col-sm-3 col-xs-12 pad-0 python">
+					<div class="portfolio quarter pad-0 python">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port3.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
@@ -474,7 +474,7 @@
 							</div>
 						</figure>
 					</div>
-					<div class="portfolio col-sm-3 col-xs-12 pad-0 php">
+					<div class="portfolio quarter pad-0 php">
 						<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port4.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
@@ -491,7 +491,7 @@
 							</div>
 						</figure>
 					</div>
-					<div class="portfolio col-sm-3 col-xs-12 pad-0 php python">
+					<div class="portfolio quarter pad-0 php python">
 						<figure class="" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" >
 						    <a href="img-home-3/portfolio/h3-port5.jpg" itemprop="contentUrl" data-size="545x325">
 						        <img src="img-home-3/portfolio/h3-port5.jpg" itemprop="thumbnail" class="img-responsive" alt=""/>
@@ -510,7 +510,7 @@
 					</div>
 	            </div><!-- end of portfolio-wrapper -->
 
-			</div>
+<!-- 			</div> -->
 		</div>
 	</section> <!-- end of section -->
 	<div class="clearfix"></div>

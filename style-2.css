@@ -1012,6 +1012,31 @@ a.explore:hover {
 	opacity: 1;
 }
 
+.containers {
+	width:100%;
+	display: block;
+	overflow: hidden;
+}
+
+.containers .portfolio-wrapper {
+	width:100%;
+	display: block;
+	width:100%;
+	overflow: hidden;
+}
+
+.quarter {
+	width:25%;
+	display: block;
+	float: left;
+}
+
+.fifty {
+	width:50%;
+	display: block;
+	float: left;
+}
+
 /* rv2-single portfolio image pop up animation */
 
 /* overlay at start */
